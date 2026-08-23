@@ -2,7 +2,7 @@
   "id": "xiaomi-poco-f7",
   "brand": "Xiaomi",
   "model": "Poco F7",
-  "aliases": ["Poco F7 (512GB)"],
+  "aliases": ["Xiaomi Poco F7", "Poco F7 (512GB)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/xiaomi/poco-f7.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "POCO"
 }

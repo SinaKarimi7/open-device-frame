@@ -2,7 +2,7 @@
   "id": "google-pixel-7a",
   "brand": "Google",
   "model": "Pixel 7a",
-  "aliases": [],
+  "aliases": ["Google Pixel 7a"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/google/pixel-7a.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2023
+  "releaseYear": 2023,
+  "family": "Pixel"
 }

@@ -2,7 +2,7 @@
   "id": "xiaomi-15s-pro",
   "brand": "Xiaomi",
   "model": "15S Pro",
-  "aliases": ["15S Pro (1TB)"],
+  "aliases": ["Xiaomi 15S Pro", "15S Pro (1TB)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/xiaomi/15s-pro.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "15S"
 }

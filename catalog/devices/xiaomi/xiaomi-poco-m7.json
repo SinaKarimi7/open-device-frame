@@ -2,7 +2,7 @@
   "id": "xiaomi-poco-m7",
   "brand": "Xiaomi",
   "model": "Poco M7",
-  "aliases": ["Poco M7 (8GB RAM)"],
+  "aliases": ["Xiaomi Poco M7", "Poco M7 (8GB RAM)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/xiaomi/poco-m7.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "POCO"
 }

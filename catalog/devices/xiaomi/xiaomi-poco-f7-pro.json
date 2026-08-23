@@ -2,7 +2,7 @@
   "id": "xiaomi-poco-f7-pro",
   "brand": "Xiaomi",
   "model": "Poco F7 Pro",
-  "aliases": [],
+  "aliases": ["Xiaomi Poco F7 Pro"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/xiaomi/poco-f7-pro.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "POCO"
 }

@@ -2,7 +2,11 @@
   "id": "apple-iphone-15-pro-max",
   "brand": "Apple",
   "model": "iPhone 15 Pro Max",
-  "aliases": ["iPhone 15 Pro Max (1TB)", "iPhone 15 Pro Max (512GB)"],
+  "aliases": [
+    "Apple iPhone 15 Pro Max",
+    "iPhone 15 Pro Max (1TB)",
+    "iPhone 15 Pro Max (512GB)"
+  ],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/apple/iphone-15-pro-max.png"
@@ -16,5 +20,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2023
+  "releaseYear": 2023,
+  "family": "iPhone"
 }

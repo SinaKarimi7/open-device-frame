@@ -2,7 +2,7 @@
   "id": "apple-iphone-15-plus",
   "brand": "Apple",
   "model": "iPhone 15 Plus",
-  "aliases": ["iPhone 15 Plus (256GB)"],
+  "aliases": ["Apple iPhone 15 Plus", "iPhone 15 Plus (256GB)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/apple/iphone-15-plus.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2023
+  "releaseYear": 2023,
+  "family": "iPhone"
 }

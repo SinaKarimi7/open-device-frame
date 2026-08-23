@@ -3,6 +3,7 @@
   "brand": "Apple",
   "model": "iPhone 16 Pro Max",
   "aliases": [
+    "Apple iPhone 16 Pro Max",
     "iPhone 16 Pro Max (1TB SG)",
     "iPhone 16 Pro Max (512GB SG)",
     "iPhone 16 Pro Max (1TB USA)",
@@ -21,5 +22,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2024
+  "releaseYear": 2024,
+  "family": "iPhone"
 }

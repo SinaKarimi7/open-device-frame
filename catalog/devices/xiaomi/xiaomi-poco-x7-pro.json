@@ -2,7 +2,11 @@
   "id": "xiaomi-poco-x7-pro",
   "brand": "Xiaomi",
   "model": "Poco X7 Pro",
-  "aliases": ["Poco X7 Pro (12GB+512GB)", "Poco X7 Pro (12GB RAM)"],
+  "aliases": [
+    "Xiaomi Poco X7 Pro",
+    "Poco X7 Pro (12GB+512GB)",
+    "Poco X7 Pro (12GB RAM)"
+  ],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/xiaomi/poco-x7-pro.png"
@@ -16,5 +20,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "POCO"
 }

@@ -2,7 +2,7 @@
   "id": "google-pixel-9-pro-fold",
   "brand": "Google",
   "model": "Pixel 9 Pro Fold",
-  "aliases": ["Pixel 9 Pro Fold (512GB)"],
+  "aliases": ["Google Pixel 9 Pro Fold", "Pixel 9 Pro Fold (512GB)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/google/pixel-9-pro-fold.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2024
+  "releaseYear": 2024,
+  "family": "Pixel"
 }

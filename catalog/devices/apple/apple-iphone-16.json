@@ -3,6 +3,7 @@
   "brand": "Apple",
   "model": "iPhone 16",
   "aliases": [
+    "Apple iPhone 16",
     "iPhone 16 (256GB SG)",
     "iPhone 16 (512GB USA)",
     "iPhone 16 (256GB USA)"
@@ -20,5 +21,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2024
+  "releaseYear": 2024,
+  "family": "iPhone"
 }

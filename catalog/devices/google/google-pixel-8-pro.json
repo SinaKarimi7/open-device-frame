@@ -2,7 +2,11 @@
   "id": "google-pixel-8-pro",
   "brand": "Google",
   "model": "Pixel 8 Pro",
-  "aliases": ["Pixel 8 Pro (512GB)", "Pixel 8 Pro (256GB)"],
+  "aliases": [
+    "Google Pixel 8 Pro",
+    "Pixel 8 Pro (512GB)",
+    "Pixel 8 Pro (256GB)"
+  ],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/google/pixel-8-pro.png"
@@ -16,5 +20,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2023
+  "releaseYear": 2023,
+  "family": "Pixel"
 }

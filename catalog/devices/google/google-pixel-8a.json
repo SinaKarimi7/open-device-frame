@@ -2,7 +2,7 @@
   "id": "google-pixel-8a",
   "brand": "Google",
   "model": "Pixel 8a",
-  "aliases": [],
+  "aliases": ["Google Pixel 8a"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/google/pixel-8a.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2024
+  "releaseYear": 2024,
+  "family": "Pixel"
 }

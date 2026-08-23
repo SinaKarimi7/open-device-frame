@@ -2,7 +2,11 @@
   "id": "samsung-galaxy-a16-5g",
   "brand": "Samsung",
   "model": "Galaxy A16 5G",
-  "aliases": ["Galaxy A16 5G (8GB+256GB)", "Galaxy A16 5G (8GB RAM)"],
+  "aliases": [
+    "Samsung Galaxy A16 5G",
+    "Galaxy A16 5G (8GB+256GB)",
+    "Galaxy A16 5G (8GB RAM)"
+  ],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/samsung/galaxy-a16-5g.png"
@@ -16,5 +20,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Galaxy A"
 }

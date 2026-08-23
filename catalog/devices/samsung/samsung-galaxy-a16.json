@@ -2,7 +2,7 @@
   "id": "samsung-galaxy-a16",
   "brand": "Samsung",
   "model": "Galaxy A16",
-  "aliases": [],
+  "aliases": ["Samsung Galaxy A16"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/samsung/galaxy-a16.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Galaxy A"
 }

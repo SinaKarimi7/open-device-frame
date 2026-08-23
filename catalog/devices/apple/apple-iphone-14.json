@@ -2,7 +2,7 @@
   "id": "apple-iphone-14",
   "brand": "Apple",
   "model": "iPhone 14",
-  "aliases": [],
+  "aliases": ["Apple iPhone 14"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/apple/iphone-14.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2022
+  "releaseYear": 2022,
+  "family": "iPhone"
 }

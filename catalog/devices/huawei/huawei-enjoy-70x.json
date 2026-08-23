@@ -2,7 +2,7 @@
   "id": "huawei-enjoy-70x",
   "brand": "Huawei",
   "model": "Enjoy 70X",
-  "aliases": [],
+  "aliases": ["Huawei Enjoy 70X"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/huawei/enjoy-70x.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Enjoy"
 }

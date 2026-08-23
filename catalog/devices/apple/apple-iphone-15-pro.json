@@ -3,6 +3,7 @@
   "brand": "Apple",
   "model": "iPhone 15 Pro",
   "aliases": [
+    "Apple iPhone 15 Pro",
     "iPhone 15 Pro (1TB)",
     "iPhone 15 Pro (512GB)",
     "iPhone 15 Pro (256GB)"
@@ -20,5 +21,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2023
+  "releaseYear": 2023,
+  "family": "iPhone"
 }

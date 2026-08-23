@@ -2,7 +2,7 @@
   "id": "google-pixel-8",
   "brand": "Google",
   "model": "Pixel 8",
-  "aliases": ["Pixel 8 (256GB)"],
+  "aliases": ["Google Pixel 8", "Pixel 8 (256GB)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/google/pixel-8.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2023
+  "releaseYear": 2023,
+  "family": "Pixel"
 }

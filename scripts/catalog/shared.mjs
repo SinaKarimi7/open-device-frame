@@ -51,6 +51,12 @@ export function errorsFor(devices) {
       errors.push(
         `${d.id || "unknown"}: published records require frontOff image`,
       );
+    if (d.status === "published" && !d.family)
+      errors.push(`${d.id || "unknown"}: published records require family`);
+    if (d.status === "published" && !Number.isInteger(d.releaseYear))
+      errors.push(
+        `${d.id || "unknown"}: published records require releaseYear`,
+      );
     if (!["published", "draft", "deprecated"].includes(d.status))
       errors.push(`${d.id || "unknown"}: invalid status`);
     const lookupClaims =

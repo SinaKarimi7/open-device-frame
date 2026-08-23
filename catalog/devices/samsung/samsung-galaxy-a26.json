@@ -2,7 +2,7 @@
   "id": "samsung-galaxy-a26",
   "brand": "Samsung",
   "model": "Galaxy A26",
-  "aliases": ["Galaxy A26 (8GB+256GB)"],
+  "aliases": ["Samsung Galaxy A26", "Galaxy A26 (8GB+256GB)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/samsung/galaxy-a26.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Galaxy A"
 }

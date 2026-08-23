@@ -31,6 +31,10 @@ export function validateRecord(value: unknown): string[] {
     errors.push("images.frontOff must be a /devices/<brand>/<file>.png path");
   if (device.status === "published" && !device.images?.frontOff)
     errors.push("published records require images.frontOff");
+  if (device.status === "published" && !device.family?.trim())
+    errors.push("published records require family");
+  if (device.status === "published" && device.releaseYear === undefined)
+    errors.push("published records require releaseYear");
   if (!statuses.has(device.status ?? ""))
     errors.push("status must be published, draft, or deprecated");
   if (

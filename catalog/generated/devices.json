@@ -3,7 +3,9 @@
     "id": "apple-iphone-14",
     "brand": "Apple",
     "model": "iPhone 14",
-    "aliases": [],
+    "aliases": [
+      "Apple iPhone 14"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/apple/iphone-14.png"
@@ -17,13 +19,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2022
+    "releaseYear": 2022,
+    "family": "iPhone"
   },
   {
     "id": "apple-iphone-15",
     "brand": "Apple",
     "model": "iPhone 15",
     "aliases": [
+      "Apple iPhone 15",
       "iPhone 15 (256GB)"
     ],
     "modelNumbers": [],
@@ -39,13 +43,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "family": "iPhone"
   },
   {
     "id": "apple-iphone-15-plus",
     "brand": "Apple",
     "model": "iPhone 15 Plus",
     "aliases": [
+      "Apple iPhone 15 Plus",
       "iPhone 15 Plus (256GB)"
     ],
     "modelNumbers": [],
@@ -61,13 +67,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "family": "iPhone"
   },
   {
     "id": "apple-iphone-15-pro",
     "brand": "Apple",
     "model": "iPhone 15 Pro",
     "aliases": [
+      "Apple iPhone 15 Pro",
       "iPhone 15 Pro (1TB)",
       "iPhone 15 Pro (512GB)",
       "iPhone 15 Pro (256GB)"
@@ -85,13 +93,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "family": "iPhone"
   },
   {
     "id": "apple-iphone-15-pro-max",
     "brand": "Apple",
     "model": "iPhone 15 Pro Max",
     "aliases": [
+      "Apple iPhone 15 Pro Max",
       "iPhone 15 Pro Max (1TB)",
       "iPhone 15 Pro Max (512GB)"
     ],
@@ -108,13 +118,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "family": "iPhone"
   },
   {
     "id": "apple-iphone-16",
     "brand": "Apple",
     "model": "iPhone 16",
     "aliases": [
+      "Apple iPhone 16",
       "iPhone 16 (256GB SG)",
       "iPhone 16 (512GB USA)",
       "iPhone 16 (256GB USA)"
@@ -132,13 +144,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "family": "iPhone"
   },
   {
     "id": "apple-iphone-16-plus",
     "brand": "Apple",
     "model": "iPhone 16 Plus",
     "aliases": [
+      "Apple iPhone 16 Plus",
       "iPhone 16 Plus (256GB SG)",
       "iPhone 16 Plus (512GB USA)",
       "iPhone 16 Plus (256GB USA)"
@@ -156,7 +170,8 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "family": "iPhone"
   },
   {
     "id": "apple-iphone-16-pro",
@@ -182,6 +197,7 @@
     "brand": "Apple",
     "model": "iPhone 16 Pro Max",
     "aliases": [
+      "Apple iPhone 16 Pro Max",
       "iPhone 16 Pro Max (1TB SG)",
       "iPhone 16 Pro Max (512GB SG)",
       "iPhone 16 Pro Max (1TB USA)",
@@ -200,13 +216,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "family": "iPhone"
   },
   {
     "id": "apple-iphone-16e",
     "brand": "Apple",
     "model": "iPhone 16e",
     "aliases": [
+      "Apple iPhone 16e",
       "iPhone 16e (256GB)"
     ],
     "modelNumbers": [],
@@ -222,13 +240,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "iPhone"
   },
   {
     "id": "google-pixel-7a",
     "brand": "Google",
     "model": "Pixel 7a",
-    "aliases": [],
+    "aliases": [
+      "Google Pixel 7a"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/google/pixel-7a.png"
@@ -242,13 +263,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "family": "Pixel"
   },
   {
     "id": "google-pixel-8",
     "brand": "Google",
     "model": "Pixel 8",
     "aliases": [
+      "Google Pixel 8",
       "Pixel 8 (256GB)"
     ],
     "modelNumbers": [],
@@ -264,13 +287,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "family": "Pixel"
   },
   {
     "id": "google-pixel-8-pro",
     "brand": "Google",
     "model": "Pixel 8 Pro",
     "aliases": [
+      "Google Pixel 8 Pro",
       "Pixel 8 Pro (512GB)",
       "Pixel 8 Pro (256GB)"
     ],
@@ -287,13 +312,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "family": "Pixel"
   },
   {
     "id": "google-pixel-8a",
     "brand": "Google",
     "model": "Pixel 8a",
-    "aliases": [],
+    "aliases": [
+      "Google Pixel 8a"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/google/pixel-8a.png"
@@ -307,13 +335,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "family": "Pixel"
   },
   {
     "id": "google-pixel-9",
     "brand": "Google",
     "model": "Pixel 9",
     "aliases": [
+      "Google Pixel 9",
       "Pixel 9 (256GB)"
     ],
     "modelNumbers": [],
@@ -329,7 +359,8 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "family": "Pixel"
   },
   {
     "id": "google-pixel-9-pro",
@@ -355,6 +386,7 @@
     "brand": "Google",
     "model": "Pixel 9 Pro Fold",
     "aliases": [
+      "Google Pixel 9 Pro Fold",
       "Pixel 9 Pro Fold (512GB)"
     ],
     "modelNumbers": [],
@@ -370,13 +402,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "family": "Pixel"
   },
   {
     "id": "google-pixel-9-pro-xl",
     "brand": "Google",
     "model": "Pixel 9 Pro XL",
     "aliases": [
+      "Google Pixel 9 Pro XL",
       "Pixel 9 Pro XL (512GB)",
       "Pixel 9 Pro XL (256GB)"
     ],
@@ -393,13 +427,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "family": "Pixel"
   },
   {
     "id": "google-pixel-9a",
     "brand": "Google",
     "model": "Pixel 9a",
-    "aliases": [],
+    "aliases": [
+      "Google Pixel 9a"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/google/pixel-9a.png"
@@ -413,13 +450,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Pixel"
   },
   {
     "id": "google-pixel-fold",
     "brand": "Google",
     "model": "Pixel Fold",
     "aliases": [
+      "Google Pixel Fold",
       "Pixel Fold (12GB+512GB)"
     ],
     "modelNumbers": [],
@@ -435,13 +474,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "family": "Pixel"
   },
   {
     "id": "huawei-enjoy-70x",
     "brand": "Huawei",
     "model": "Enjoy 70X",
-    "aliases": [],
+    "aliases": [
+      "Huawei Enjoy 70X"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/enjoy-70x.png"
@@ -455,13 +497,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Enjoy"
   },
   {
     "id": "huawei-enjoy-80",
     "brand": "Huawei",
     "model": "Enjoy 80",
-    "aliases": [],
+    "aliases": [
+      "Huawei Enjoy 80"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/enjoy-80.png"
@@ -475,13 +520,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Enjoy"
   },
   {
     "id": "huawei-nova-14",
     "brand": "Huawei",
     "model": "Nova 14",
-    "aliases": [],
+    "aliases": [
+      "Huawei Nova 14"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/nova-14.png"
@@ -495,13 +543,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Nova"
   },
   {
     "id": "huawei-nova-14-pro",
     "brand": "Huawei",
     "model": "Nova 14 Pro",
-    "aliases": [],
+    "aliases": [
+      "Huawei Nova 14 Pro"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/nova-14-pro.png"
@@ -515,13 +566,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Nova"
   },
   {
     "id": "huawei-nova-y63",
     "brand": "Huawei",
     "model": "Nova Y63",
-    "aliases": [],
+    "aliases": [
+      "Huawei Nova Y63"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/nova-y63.png"
@@ -535,13 +589,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Nova"
   },
   {
     "id": "huawei-nova-y72s",
     "brand": "Huawei",
     "model": "Nova Y72S",
-    "aliases": [],
+    "aliases": [
+      "Huawei Nova Y72S"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/nova-y72s.png"
@@ -555,13 +612,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Nova"
   },
   {
     "id": "huawei-pura-80",
     "brand": "Huawei",
     "model": "Pura 80",
-    "aliases": [],
+    "aliases": [
+      "Huawei Pura 80"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/pura-80.png"
@@ -575,13 +635,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Pura"
   },
   {
     "id": "huawei-pura-80-pro",
     "brand": "Huawei",
     "model": "Pura 80 Pro",
-    "aliases": [],
+    "aliases": [
+      "Huawei Pura 80 Pro"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/pura-80-pro.png"
@@ -595,13 +658,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Pura"
   },
   {
     "id": "huawei-pura-80-pro-plus",
     "brand": "Huawei",
     "model": "Pura 80 Pro Plus",
-    "aliases": [],
+    "aliases": [
+      "Huawei Pura 80 Pro Plus"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/huawei/pura-80-pro-plus.png"
@@ -615,13 +681,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Pura"
   },
   {
     "id": "huawei-pura-80-ultra",
     "brand": "Huawei",
     "model": "Pura 80 Ultra",
     "aliases": [
+      "Huawei Pura 80 Ultra",
       "Pura 80 Ultra (1TB)"
     ],
     "modelNumbers": [],
@@ -637,13 +705,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Pura"
   },
   {
     "id": "samsung-galaxy-a16",
     "brand": "Samsung",
     "model": "Galaxy A16",
-    "aliases": [],
+    "aliases": [
+      "Samsung Galaxy A16"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/samsung/galaxy-a16.png"
@@ -657,13 +728,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy A"
   },
   {
     "id": "samsung-galaxy-a16-5g",
     "brand": "Samsung",
     "model": "Galaxy A16 5G",
     "aliases": [
+      "Samsung Galaxy A16 5G",
       "Galaxy A16 5G (8GB+256GB)",
       "Galaxy A16 5G (8GB RAM)"
     ],
@@ -680,13 +753,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy A"
   },
   {
     "id": "samsung-galaxy-a26",
     "brand": "Samsung",
     "model": "Galaxy A26",
     "aliases": [
+      "Samsung Galaxy A26",
       "Galaxy A26 (8GB+256GB)"
     ],
     "modelNumbers": [],
@@ -702,13 +777,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy A"
   },
   {
     "id": "samsung-galaxy-a36",
     "brand": "Samsung",
     "model": "Galaxy A36",
     "aliases": [
+      "Samsung Galaxy A36",
       "Galaxy A36 (12GB+256GB)",
       "Galaxy A36 (8GB+256GB)",
       "Galaxy A36 (8GB RAM)"
@@ -726,13 +803,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy A"
   },
   {
     "id": "samsung-galaxy-a56",
     "brand": "Samsung",
     "model": "Galaxy A56",
     "aliases": [
+      "Samsung Galaxy A56",
       "Galaxy A56 (12GB+256GB)",
       "Galaxy A56 (256GB)"
     ],
@@ -749,13 +828,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy A"
   },
   {
     "id": "samsung-galaxy-f06-5g",
     "brand": "Samsung",
     "model": "Galaxy F06 5G",
-    "aliases": [],
+    "aliases": [
+      "Samsung Galaxy F06 5G"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/samsung/galaxy-f06-5g.png"
@@ -769,13 +851,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy F"
   },
   {
     "id": "samsung-galaxy-f16",
     "brand": "Samsung",
     "model": "Galaxy F16",
     "aliases": [
+      "Samsung Galaxy F16",
       "Galaxy F16 (8GB RAM)"
     ],
     "modelNumbers": [],
@@ -791,13 +875,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy F"
   },
   {
     "id": "samsung-galaxy-f36",
     "brand": "Samsung",
     "model": "Galaxy F36",
-    "aliases": [],
+    "aliases": [
+      "Samsung Galaxy F36"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/samsung/galaxy-f36.png"
@@ -811,13 +898,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy F"
   },
   {
     "id": "samsung-galaxy-f56",
     "brand": "Samsung",
     "model": "Galaxy F56",
     "aliases": [
+      "Samsung Galaxy F56",
       "Galaxy F56 (256GB)"
     ],
     "modelNumbers": [],
@@ -833,13 +922,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy F"
   },
   {
     "id": "samsung-galaxy-m06",
     "brand": "Samsung",
     "model": "Galaxy M06",
-    "aliases": [],
+    "aliases": [
+      "Samsung Galaxy M06"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/samsung/galaxy-m06.png"
@@ -853,13 +945,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Galaxy M"
   },
   {
     "id": "xiaomi-15-ultra",
     "brand": "Xiaomi",
     "model": "15 Ultra",
-    "aliases": [],
+    "aliases": [
+      "Xiaomi 15 Ultra"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/xiaomi/15-ultra.png"
@@ -873,13 +968,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "15"
   },
   {
     "id": "xiaomi-15s-pro",
     "brand": "Xiaomi",
     "model": "15S Pro",
     "aliases": [
+      "Xiaomi 15S Pro",
       "15S Pro (1TB)"
     ],
     "modelNumbers": [],
@@ -895,13 +992,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "15S"
   },
   {
     "id": "xiaomi-civi-5-pro",
     "brand": "Xiaomi",
     "model": "Civi 5 Pro",
     "aliases": [
+      "Xiaomi Civi 5 Pro",
       "Civi 5 Pro (16GB+512GB)",
       "Civi 5 Pro (512GB)"
     ],
@@ -918,13 +1017,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "Civi"
   },
   {
     "id": "xiaomi-poco-c71",
     "brand": "Xiaomi",
     "model": "Poco C71",
-    "aliases": [],
+    "aliases": [
+      "Xiaomi Poco C71"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/xiaomi/poco-c71.png"
@@ -938,13 +1040,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "POCO"
   },
   {
     "id": "xiaomi-poco-f7",
     "brand": "Xiaomi",
     "model": "Poco F7",
     "aliases": [
+      "Xiaomi Poco F7",
       "Poco F7 (512GB)"
     ],
     "modelNumbers": [],
@@ -960,13 +1064,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "POCO"
   },
   {
     "id": "xiaomi-poco-f7-pro",
     "brand": "Xiaomi",
     "model": "Poco F7 Pro",
-    "aliases": [],
+    "aliases": [
+      "Xiaomi Poco F7 Pro"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/xiaomi/poco-f7-pro.png"
@@ -980,13 +1087,16 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "POCO"
   },
   {
     "id": "xiaomi-poco-f7-ultra",
     "brand": "Xiaomi",
     "model": "Poco F7 Ultra",
-    "aliases": [],
+    "aliases": [
+      "Xiaomi Poco F7 Ultra"
+    ],
     "modelNumbers": [],
     "images": {
       "frontOff": "/devices/xiaomi/poco-f7-ultra.png"
@@ -1000,13 +1110,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "POCO"
   },
   {
     "id": "xiaomi-poco-m7",
     "brand": "Xiaomi",
     "model": "Poco M7",
     "aliases": [
+      "Xiaomi Poco M7",
       "Poco M7 (8GB RAM)"
     ],
     "modelNumbers": [],
@@ -1022,13 +1134,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "POCO"
   },
   {
     "id": "xiaomi-poco-x7",
     "brand": "Xiaomi",
     "model": "Poco X7",
     "aliases": [
+      "Xiaomi Poco X7",
       "Poco X7 (256GB)"
     ],
     "modelNumbers": [],
@@ -1044,13 +1158,15 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "POCO"
   },
   {
     "id": "xiaomi-poco-x7-pro",
     "brand": "Xiaomi",
     "model": "Poco X7 Pro",
     "aliases": [
+      "Xiaomi Poco X7 Pro",
       "Poco X7 Pro (12GB+512GB)",
       "Poco X7 Pro (12GB RAM)"
     ],
@@ -1067,6 +1183,7 @@
         "retrievedAt": "2026-08-23"
       }
     ],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "family": "POCO"
   }
 ]

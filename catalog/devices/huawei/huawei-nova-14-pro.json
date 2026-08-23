@@ -2,7 +2,7 @@
   "id": "huawei-nova-14-pro",
   "brand": "Huawei",
   "model": "Nova 14 Pro",
-  "aliases": [],
+  "aliases": ["Huawei Nova 14 Pro"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/huawei/nova-14-pro.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Nova"
 }

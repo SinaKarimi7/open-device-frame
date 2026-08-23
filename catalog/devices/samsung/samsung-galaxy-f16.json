@@ -2,7 +2,7 @@
   "id": "samsung-galaxy-f16",
   "brand": "Samsung",
   "model": "Galaxy F16",
-  "aliases": ["Galaxy F16 (8GB RAM)"],
+  "aliases": ["Samsung Galaxy F16", "Galaxy F16 (8GB RAM)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/samsung/galaxy-f16.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Galaxy F"
 }

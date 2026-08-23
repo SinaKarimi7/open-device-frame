@@ -2,7 +2,7 @@
   "id": "samsung-galaxy-m06",
   "brand": "Samsung",
   "model": "Galaxy M06",
-  "aliases": [],
+  "aliases": ["Samsung Galaxy M06"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/samsung/galaxy-m06.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Galaxy M"
 }

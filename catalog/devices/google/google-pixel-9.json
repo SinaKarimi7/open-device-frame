@@ -2,7 +2,7 @@
   "id": "google-pixel-9",
   "brand": "Google",
   "model": "Pixel 9",
-  "aliases": ["Pixel 9 (256GB)"],
+  "aliases": ["Google Pixel 9", "Pixel 9 (256GB)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/google/pixel-9.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2024
+  "releaseYear": 2024,
+  "family": "Pixel"
 }

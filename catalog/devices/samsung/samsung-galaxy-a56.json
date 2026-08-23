@@ -2,7 +2,11 @@
   "id": "samsung-galaxy-a56",
   "brand": "Samsung",
   "model": "Galaxy A56",
-  "aliases": ["Galaxy A56 (12GB+256GB)", "Galaxy A56 (256GB)"],
+  "aliases": [
+    "Samsung Galaxy A56",
+    "Galaxy A56 (12GB+256GB)",
+    "Galaxy A56 (256GB)"
+  ],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/samsung/galaxy-a56.png"
@@ -16,5 +20,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Galaxy A"
 }

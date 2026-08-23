@@ -3,6 +3,7 @@
   "brand": "Samsung",
   "model": "Galaxy A36",
   "aliases": [
+    "Samsung Galaxy A36",
     "Galaxy A36 (12GB+256GB)",
     "Galaxy A36 (8GB+256GB)",
     "Galaxy A36 (8GB RAM)"
@@ -20,5 +21,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Galaxy A"
 }

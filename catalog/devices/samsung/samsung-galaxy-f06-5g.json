@@ -2,7 +2,7 @@
   "id": "samsung-galaxy-f06-5g",
   "brand": "Samsung",
   "model": "Galaxy F06 5G",
-  "aliases": [],
+  "aliases": ["Samsung Galaxy F06 5G"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/samsung/galaxy-f06-5g.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Galaxy F"
 }

@@ -2,7 +2,7 @@
   "id": "google-pixel-9a",
   "brand": "Google",
   "model": "Pixel 9a",
-  "aliases": [],
+  "aliases": ["Google Pixel 9a"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/google/pixel-9a.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Pixel"
 }

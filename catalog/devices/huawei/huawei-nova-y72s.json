@@ -2,7 +2,7 @@
   "id": "huawei-nova-y72s",
   "brand": "Huawei",
   "model": "Nova Y72S",
-  "aliases": [],
+  "aliases": ["Huawei Nova Y72S"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/huawei/nova-y72s.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Nova"
 }

@@ -2,7 +2,7 @@
   "id": "xiaomi-poco-c71",
   "brand": "Xiaomi",
   "model": "Poco C71",
-  "aliases": [],
+  "aliases": ["Xiaomi Poco C71"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/xiaomi/poco-c71.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "POCO"
 }

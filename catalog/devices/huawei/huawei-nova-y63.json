@@ -2,7 +2,7 @@
   "id": "huawei-nova-y63",
   "brand": "Huawei",
   "model": "Nova Y63",
-  "aliases": [],
+  "aliases": ["Huawei Nova Y63"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/huawei/nova-y63.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Nova"
 }

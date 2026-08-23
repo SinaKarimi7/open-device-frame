@@ -2,7 +2,11 @@
   "id": "google-pixel-9-pro-xl",
   "brand": "Google",
   "model": "Pixel 9 Pro XL",
-  "aliases": ["Pixel 9 Pro XL (512GB)", "Pixel 9 Pro XL (256GB)"],
+  "aliases": [
+    "Google Pixel 9 Pro XL",
+    "Pixel 9 Pro XL (512GB)",
+    "Pixel 9 Pro XL (256GB)"
+  ],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/google/pixel-9-pro-xl.png"
@@ -16,5 +20,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2024
+  "releaseYear": 2024,
+  "family": "Pixel"
 }

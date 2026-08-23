@@ -2,7 +2,7 @@
   "id": "huawei-pura-80-pro-plus",
   "brand": "Huawei",
   "model": "Pura 80 Pro Plus",
-  "aliases": [],
+  "aliases": ["Huawei Pura 80 Pro Plus"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/huawei/pura-80-pro-plus.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "Pura"
 }

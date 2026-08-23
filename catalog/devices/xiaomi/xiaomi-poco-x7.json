@@ -2,7 +2,7 @@
   "id": "xiaomi-poco-x7",
   "brand": "Xiaomi",
   "model": "Poco X7",
-  "aliases": ["Poco X7 (256GB)"],
+  "aliases": ["Xiaomi Poco X7", "Poco X7 (256GB)"],
   "modelNumbers": [],
   "images": {
     "frontOff": "/devices/xiaomi/poco-x7.png"
@@ -16,5 +16,6 @@
       "retrievedAt": "2026-08-23"
     }
   ],
-  "releaseYear": 2025
+  "releaseYear": 2025,
+  "family": "POCO"
 }
