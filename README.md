@@ -15,9 +15,9 @@ pnpm dev
 
 - Canonical devices: `catalog/devices/<brand>/<device>.json`
 - Generated indexes: `catalog/generated/` (never edit these by hand)
-- Assets: `public/devices/<brand>/<device>.svg`
+- Assets: `public/devices/<brand>/<device>.png`
 
-Initial assets use SVG with a 360×720 portrait viewBox, transparent background, a straight-on full device, and powered-off black screen. Files must be under 100KB. This is deliberately an illustration contract, not manufacturer-authorized photography.
+New assets use PNG with a transparent background, straight-on full device, and powered-off black screen. Files must be under 500KB. Legacy SVG fixtures remain valid until replaced. This is deliberately an illustration contract, not manufacturer-authorized photography.
 
 ## API
 

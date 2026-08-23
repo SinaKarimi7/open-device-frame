@@ -6,14 +6,20 @@ const errors = [];
 for (const d of await readDevices())
   if (d.status === "published")
     try {
-      const svg = await readFile(
+      const image = await readFile(
         path.join(root, "public", d.images.frontOff),
         "utf8",
       );
-      if (!svg.includes("<svg") || !svg.includes("viewBox"))
-        errors.push(`${d.id}: invalid SVG`);
-      if (Buffer.byteLength(svg) > 100000)
-        errors.push(`${d.id}: image exceeds 100KB`);
+      if (d.images.frontOff.endsWith(".png")) {
+        if (
+          image
+            .subarray(0, 8)
+            .compare(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) !== 0
+        )
+          errors.push(`${d.id}: invalid PNG`);
+      } else if (!image.toString("utf8").includes("<svg"))
+        errors.push(`${d.id}: invalid legacy SVG`);
+      if (image.length > 500000) errors.push(`${d.id}: image exceeds 500KB`);
     } catch {
       errors.push(`${d.id}: unreadable image`);
     }

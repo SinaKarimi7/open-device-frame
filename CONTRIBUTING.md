@@ -6,7 +6,7 @@ Thank you for helping make the catalog more accurate. GitHub is the source of tr
 
 1. Confirm the model is visually distinct; regional hardware identifiers normally share one canonical visual record.
 2. Add or edit `catalog/devices/<brand>/<id>.json`. Canonical IDs are lowercase ASCII hyphenated slugs.
-3. Add the final normalized SVG in `public/devices/<brand>/<file>.svg`.
+3. Add the final normalized PNG in `public/devices/<brand>/<file>.png`.
 4. Run `pnpm catalog:build` and `pnpm verify`.
 5. Commit generated index changes and open a pull request explaining the source or correction.
 
