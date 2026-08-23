@@ -1,6 +1,31 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { DeviceImage } from "@/components/device-image";
 import { getDevice } from "@/lib/catalog/catalog";
+import { siteName } from "@/lib/site";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const device = await getDevice((await params).id);
+  if (!device) return { title: "Device not found", robots: { index: false } };
+  const name = `${device.brand} ${device.model}`;
+  const description = `Transparent ${name} front device-frame asset from ${siteName}.`;
+  return {
+    title: `${name} device frame`,
+    description,
+    alternates: { canonical: `/devices/${device.id}` },
+    openGraph: {
+      title: `${name} device frame`,
+      description,
+      images: [
+        { url: device.images.frontOff!, alt: `${name} front device frame` },
+      ],
+    },
+  };
+}
 
 export default async function DevicePage({
   params,

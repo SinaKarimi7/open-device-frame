@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import { DeviceRequestForm } from "@/components/issue-form";
+
+export const metadata: Metadata = {
+  title: "Request a device frame",
+  robots: { index: false, follow: true },
+};
 export default async function RequestDevicePage({
   searchParams,
 }: {

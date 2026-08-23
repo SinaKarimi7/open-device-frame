@@ -1,6 +1,18 @@
-# Community Phone Device Image API
+![Open Device Frame preview](public/readme-preview.png)
 
-A free, repository-backed catalog of community-maintained phone illustrations. The catalog files and final assets in this repository are the canonical source of truth; the Next.js website and API are deterministic views over them.
+# Open Device Frame
+
+Open Device Frame is an open, repository-backed catalog of transparent
+smartphone frame assets and a public device image API. The Git-tracked catalog
+records and WebP assets are the source of truth; the website and API are
+deterministic views over that data.
+
+## What you get
+
+- Transparent, black, front-facing device-frame WebP assets.
+- Searchable canonical metadata, aliases, hardware model numbers, and brands.
+- A public read API for device resolution and asset discovery.
+- Community issue workflows for missing devices and corrections.
 
 ## Quick start
 
@@ -13,16 +25,12 @@ pnpm dev
 
 ## Catalog and assets
 
-- Canonical devices: `catalog/devices/<brand>/<device>.json`
-- Generated indexes: `catalog/generated/` (never edit these by hand)
-- Assets: `public/devices/<brand>/<device>.png` or `.webp`
+- Records: `catalog/devices/<brand>/<device>.json`
+- Generated indexes: `catalog/generated/` — never edit manually
+- Assets: `public/devices/<brand>/<device>.webp`
 
-Assets are real transparent device frames. Approved high-resolution PNG masters
-may be published as lossless WebP derivatives; both retain the transparent
-background and display opening. The physical frame is solid black, straight-on,
-and tightly cropped to its natural aspect ratio. Files must be under 500KB.
-This is deliberately an illustration contract, not manufacturer-authorized
-photography.
+Each asset has a transparent background and display opening. It is a
+community-created illustration, not manufacturer-authorized photography.
 
 ## API
 
@@ -33,14 +41,21 @@ photography.
 - `GET /api/v1/brands/:brand/devices`
 - `GET /api/v1/catalog`
 
-See `/api-docs` in the running application for examples and the error contract.
+See `/api-docs` in the running application for response examples and errors.
 
-## GitHub issue forms
+## Deploy on Vercel
 
-The browser form posts to GitHub only when both `GITHUB_TOKEN` (least-privileged Issues write token) and `GITHUB_REPOSITORY` (`owner/repo`) are configured on the server. Neither value may use a `NEXT_PUBLIC_` prefix.
+1. Import this GitHub repository into Vercel.
+2. Set `NEXT_PUBLIC_SITE_URL` to the production URL, for example
+   `https://open-device-frame.vercel.app`.
+3. Deploy. The site publishes `robots.txt`, `sitemap.xml`, canonical URLs,
+   Open Graph metadata, and device-specific metadata for crawlers.
 
-Before public launch, configure GitHub labels: `device-request`, `incorrect-image`, `incorrect-metadata`, `duplicate`, `needs-reference`, `needs-triage`, `help-wanted`, and `good-first-issue`.
+For the optional GitHub issue form, configure `GITHUB_TOKEN` with least-
+privileged Issues write access and `GITHUB_REPOSITORY` as `owner/repo`. Never
+give either variable a `NEXT_PUBLIC_` prefix.
 
 ## Licensing
 
-No license is selected yet. Code, catalog data, and image assets need separate licensing decisions before public contributions are accepted. This is a launch blocker, not a legal assertion.
+No license has been selected. Code, catalog data, and image assets require
+separate licensing decisions before public contributions are accepted.

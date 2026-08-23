@@ -1,6 +1,22 @@
 {
-  "name": "community-phone-device-images",
+  "name": "open-device-frame",
   "version": "0.1.0",
+  "description": "Open, repository-backed transparent device frame assets and API.",
+  "keywords": [
+    "device frames",
+    "phone mockups",
+    "smartphone frames",
+    "transparent device images",
+    "device image API"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SinaKarimi7/open-device-frame.git"
+  },
+  "homepage": "https://github.com/SinaKarimi7/open-device-frame#readme",
+  "bugs": {
+    "url": "https://github.com/SinaKarimi7/open-device-frame/issues"
+  },
   "private": true,
   "packageManager": "pnpm@10.5.0",
   "scripts": {

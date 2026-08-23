@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import { DeviceCatalog } from "@/components/device-catalog";
 import { allPublishedDevices, brands } from "@/lib/catalog/catalog";
+
+export const metadata: Metadata = {
+  title: "Device frame catalog",
+  description:
+    "Browse open transparent smartphone frame assets by brand, model, alias, or hardware identifier.",
+  alternates: { canonical: "/devices" },
+};
 
 export default async function DevicesPage() {
   const [devices, brandList] = await Promise.all([

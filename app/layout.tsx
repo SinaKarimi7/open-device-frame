@@ -1,10 +1,34 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { siteDescription, siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Community Phone Images",
-  description:
-    "Community-maintained standardized phone mockups and a public device API.",
+  metadataBase: siteUrl,
+  title: { default: siteName, template: `%s | ${siteName}` },
+  description: siteDescription,
+  applicationName: siteName,
+  keywords: [
+    "device frames",
+    "phone frames",
+    "smartphone mockups",
+    "transparent phone WebP",
+    "device image API",
+  ],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "/",
+    siteName,
+    title: siteName,
+    description: siteDescription,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteName,
+    description: siteDescription,
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({
@@ -14,7 +38,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header>
-          <a href="/">Community Phone Images</a>
+          <a href="/">Open Device Frame</a>
           <nav>
             <a href="/devices">Catalog</a>
             <a href="/api-docs">API docs</a>
@@ -22,9 +46,7 @@ export default function RootLayout({
           </nav>
         </header>
         <main>{children}</main>
-        <footer>
-          Community-maintained device illustrations. Coverage is incomplete.
-        </footer>
+        <footer>Open device-frame illustrations. Coverage is growing.</footer>
       </body>
     </html>
   );

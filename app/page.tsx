@@ -7,10 +7,10 @@ export default async function HomePage() {
   ]);
   return (
     <section className="hero">
-      <p className="eyebrow">OPEN DEVICE CATALOG</p>
-      <h1>Phone images your interface can rely on.</h1>
+      <p className="eyebrow">OPEN DEVICE FRAME</p>
+      <h1>Transparent device frames for your interface.</h1>
       <p>
-        Standardized, community-maintained device illustrations, committed
+        Open, standardized phone-frame assets and a public API, committed
         directly to the repository.
       </p>
       <div className="actions">

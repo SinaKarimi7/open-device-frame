@@ -1,3 +1,12 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Device frame API documentation",
+  description:
+    "Use the Open Device Frame API to resolve, search, and retrieve transparent device-frame assets.",
+  alternates: { canonical: "/api-docs" },
+};
+
 const example = `const response = await fetch(
   "/api/v1/resolve?model=Apple%20iPhone%2016%20Pro",
 );
