@@ -7,8 +7,8 @@
   "aliases": ["Google Pixel 9 Pro", "Pixel 9Pro"],
   "modelNumbers": ["G2YBB", "GR83Y"],
   "images": {
-    "frontOff": "/devices/google/pixel-9-pro.png",
-    "thumbhash": "BAiCAgASh397qIjfqPe9S/fneHeKdqg="
+    "frontOff": "/devices/google/pixel-9-pro.webp",
+    "thumbhash": "AwiCAgASSY/ZyNiwhS4n9/fneHeKdqg="
   },
   "status": "published"
 }

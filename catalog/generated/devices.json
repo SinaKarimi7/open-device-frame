@@ -8,8 +8,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-14.png",
-      "thumbhash": "w/eBAgAS9ohdaHcHeYugpfj4iYaMhcc="
+      "frontOff": "/devices/apple/iphone-14.webp",
+      "thumbhash": "wweCAwAS2p9eiWn97Dag6ff3iYd8lcc="
     },
     "status": "published",
     "provenance": [
@@ -33,8 +33,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-15.png",
-      "thumbhash": "xPeBAwAS+4pdd2cJa7qwt/f3iYd8hcc="
+      "frontOff": "/devices/apple/iphone-15.webp",
+      "thumbhash": "wweCAgASup98qHj4hxWh9Pf4iYd8hbc="
     },
     "status": "published",
     "provenance": [
@@ -58,8 +58,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-15-plus.png",
-      "thumbhash": "BAiCAwASt4+cyJf3mCrcn/f4iYeMhbc="
+      "frontOff": "/devices/apple/iphone-15-plus.webp",
+      "thumbhash": "AwiCAgASup99qXn/u8PQSfj4iYeLhbc="
     },
     "status": "published",
     "provenance": [
@@ -85,8 +85,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-15-pro.png",
-      "thumbhash": "BwiCAgAS+IxOeGf4e4WvZuj4iYd7hbc="
+      "frontOff": "/devices/apple/iphone-15-pro.webp",
+      "thumbhash": "w/eBAgASyZ9tmXj3hmei9/j4iYd7hbc="
     },
     "status": "published",
     "provenance": [
@@ -111,8 +111,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-15-pro-max.png",
-      "thumbhash": "BQiCAwAS2I+Pt5f5mLh/Zuj4iYeMhbc="
+      "frontOff": "/devices/apple/iphone-15-pro-max.webp",
+      "thumbhash": "wweCAwASyZ9umXn4qzT1uuf3iYd7hbc="
     },
     "status": "published",
     "provenance": [
@@ -138,8 +138,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-16.png",
-      "thumbhash": "xQeCAwAS9oZLWFcYdy/PKvj4iYeMhcc="
+      "frontOff": "/devices/apple/iphone-16.webp",
+      "thumbhash": "wveBAgASSor6h/dDgDyw4vf3iYd7hbc="
     },
     "status": "published",
     "provenance": [
@@ -165,8 +165,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-16-plus.png",
-      "thumbhash": "AwiCAwAS+Yg8V1f8o9f6d+j4iYeMhbc="
+      "frontOff": "/devices/apple/iphone-16-plus.webp",
+      "thumbhash": "AviBAwASSIr6mPhrlp/z5ef3iYeLhbc="
     },
     "status": "published",
     "provenance": [
@@ -195,8 +195,8 @@
       "A3292"
     ],
     "images": {
-      "frontOff": "/devices/apple/iphone-16-pro.png",
-      "thumbhash": "CAiCAgAS+IVdSHj+obePV+f3iYd8hbc="
+      "frontOff": "/devices/apple/iphone-16-pro.webp",
+      "thumbhash": "wveBAwASWon7iPgmhF+g6Pj4iXeMhbc="
     },
     "status": "published"
   },
@@ -213,8 +213,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-16-pro-max.png",
-      "thumbhash": "xveBAgAS+og8Z0fvn7H3aef4iYeMhbc="
+      "frontOff": "/devices/apple/iphone-16-pro-max.webp",
+      "thumbhash": "wveBAgASSYr6mPg5kl9w9+f3iId7hbc="
     },
     "status": "published",
     "provenance": [
@@ -238,8 +238,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/apple/iphone-16e.png",
-      "thumbhash": "AgiCAgAS94c7SFdaZU+Pdff3iYd8hbc="
+      "frontOff": "/devices/apple/iphone-16e.webp",
+      "thumbhash": "wfeBAwASR4z6mPi/5Jj0dfj4iYeMhcc="
     },
     "status": "published",
     "provenance": [
@@ -262,8 +262,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-7a.png",
-      "thumbhash": "xveBAgAj9345x0gDdK30Wvfnd3eMdsg="
+      "frontOff": "/devices/google/pixel-7a.webp",
+      "thumbhash": "AwiCAgAj+H0YyCi/r3j5mffXd3iLdrg="
     },
     "status": "published",
     "provenance": [
@@ -287,8 +287,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-8.png",
-      "thumbhash": "xfeBAgATx39Kt1hJkU8IiPfneHeLdqg="
+      "frontOff": "/devices/google/pixel-8.webp",
+      "thumbhash": "BQiCAgAS13852Eg1jp/5yvfod3iLdrg="
     },
     "status": "published",
     "provenance": [
@@ -313,8 +313,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-8-pro.png",
-      "thumbhash": "xfeBAgASyH9KuEhUsFuJ+ffnd3iLdrg="
+      "frontOff": "/devices/google/pixel-8-pro.webp",
+      "thumbhash": "xAeCAgASxn842Eg0Zw+7Rvfnd3iLdrg="
     },
     "status": "published",
     "provenance": [
@@ -337,8 +337,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-8a.png",
-      "thumbhash": "AwiCAgAjmH96uIi/ernk/PjYd3eLdrg="
+      "frontOff": "/devices/google/pixel-8a.webp",
+      "thumbhash": "AwiCAgATiI+Z2KgojH/z8vfXd3eLdrg="
     },
     "status": "published",
     "provenance": [
@@ -362,8 +362,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-9.png",
-      "thumbhash": "BAiCAgASiY97qIj7bUnrQPjoeHeLhrg="
+      "frontOff": "/devices/google/pixel-9.webp",
+      "thumbhash": "AwiCAgASaI+p2LhcZ39j+PfoeHeKhqg="
     },
     "status": "published",
     "provenance": [
@@ -392,8 +392,8 @@
       "GR83Y"
     ],
     "images": {
-      "frontOff": "/devices/google/pixel-9-pro.png",
-      "thumbhash": "BAiCAgASh397qIjfqPe9S/fneHeKdqg="
+      "frontOff": "/devices/google/pixel-9-pro.webp",
+      "thumbhash": "AwiCAgASSY/ZyNiwhS4n9/fneHeKdqg="
     },
     "status": "published"
   },
@@ -407,8 +407,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-9-pro-fold.png",
-      "thumbhash": "AwiCBQASWHiPiInXqGNPC9mD9+d4d4929w=="
+      "frontOff": "/devices/google/pixel-9-pro-fold.webp",
+      "thumbhash": "BQiCBYASSUmPh4zoyIPHr/5H9+d4eH+G9w=="
     },
     "status": "published",
     "provenance": [
@@ -433,8 +433,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-9-pro-xl.png",
-      "thumbhash": "BAiCAgASzH8qt0iVcG1vWvfoeHiKhqg="
+      "frontOff": "/devices/google/pixel-9-pro-xl.webp",
+      "thumbhash": "BAiCAgASgm96uqjWTw5eNPj4eHeLhrg="
     },
     "status": "published",
     "provenance": [
@@ -457,8 +457,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-9a.png",
-      "thumbhash": "BAiCAgASmH96uIj0dAVWQ/fXd3eLdrg="
+      "frontOff": "/devices/google/pixel-9a.webp",
+      "thumbhash": "AgiCAgASWI/I2MhHeX/0xvfneHeKhqg="
     },
     "status": "published",
     "provenance": [
@@ -482,8 +482,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/google/pixel-fold.png",
-      "thumbhash": "A/iBBYATx/ePeIPXWE+yFR8Xx8d3eH925w=="
+      "frontOff": "/devices/google/pixel-fold.webp",
+      "thumbhash": "AwiCBYASipqPh4jnuAp4n/SW5+d4eI+G5w=="
     },
     "status": "published",
     "provenance": [
@@ -506,8 +506,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/enjoy-70x.png",
-      "thumbhash": "0feBAgAS+HcJdxePiovNCfj4eHeNhsg="
+      "frontOff": "/devices/huawei/enjoy-70x.webp",
+      "thumbhash": "yweCAgAS+HgZeBjPg8dvOff3eHeMhsg="
     },
     "status": "published",
     "provenance": [
@@ -530,8 +530,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/enjoy-80.png",
-      "thumbhash": "xweCAgAS13842EgpgL5fO/fYd3iMZsg="
+      "frontOff": "/devices/huawei/enjoy-80.webp",
+      "thumbhash": "BAiCAgAS5n8rqCj6dvt7iPfnd3eMdrg="
     },
     "status": "published",
     "provenance": [
@@ -554,8 +554,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/nova-14.png",
-      "thumbhash": "CQiCAgAS+oYcVzjswLq/J/f3eYd8hcg="
+      "frontOff": "/devices/huawei/nova-14.webp",
+      "thumbhash": "BQiCAgAS5n8bqCj8hrhvR/fnd3eLdrg="
     },
     "status": "published",
     "provenance": [
@@ -578,8 +578,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/nova-14-pro.png",
-      "thumbhash": "CQiCAgAS93cbaCj5kgdMmPf3eId8hcg="
+      "frontOff": "/devices/huawei/nova-14-pro.webp",
+      "thumbhash": "xPeBAgAS93kraDj6cbhPZ+f3eHeMhcg="
     },
     "status": "published",
     "provenance": [
@@ -602,8 +602,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/nova-y63.png",
-      "thumbhash": "BwiCAgAS938ZyBiblv99Wvfndnd9Zsg="
+      "frontOff": "/devices/huawei/nova-y63.webp",
+      "thumbhash": "AwiCAgAS2H9LqEj5mLW/V/fndniNZcg="
     },
     "status": "published",
     "provenance": [
@@ -626,8 +626,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/nova-y72s.png",
-      "thumbhash": "xPeBAgAS+Y8I1xhZgNsMeffodniNZsg="
+      "frontOff": "/devices/huawei/nova-y72s.webp",
+      "thumbhash": "BPiBAgASmH9Y12h/aJr6WPfodniNZsg="
     },
     "status": "published",
     "provenance": [
@@ -650,8 +650,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/pura-80.png",
-      "thumbhash": "xfeBAgAS83wbqCj6g/fP2vjod3eLdqg="
+      "frontOff": "/devices/huawei/pura-80.webp",
+      "thumbhash": "xveBAgASln9KuFj1hkT3Sffod3eLdrg="
     },
     "status": "published",
     "provenance": [
@@ -674,8 +674,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/pura-80-pro.png",
-      "thumbhash": "BgiCAgAS/XsLlxf2c0h/aPfneHeLdqg="
+      "frontOff": "/devices/huawei/pura-80-pro.webp",
+      "thumbhash": "xveBAgASl39LqEhYhG8Jl/fneHeLdrg="
     },
     "status": "published",
     "provenance": [
@@ -698,8 +698,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/pura-80-pro-plus.png",
-      "thumbhash": "BwiCAgAStGoMiBn8gfndZfjoeHeLdrg="
+      "frontOff": "/devices/huawei/pura-80-pro-plus.webp",
+      "thumbhash": "BviBAgASp387uDj3l/iPGPfoeHeLdrg="
     },
     "status": "published",
     "provenance": [
@@ -723,8 +723,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/huawei/pura-80-ultra.png",
-      "thumbhash": "x/eBAgAS3HkLdwhKl+/I9ffneHeLdrg="
+      "frontOff": "/devices/huawei/pura-80-ultra.webp",
+      "thumbhash": "BfiBAgAS+HsuiCj8lduZ//f3eXd8hcg="
     },
     "status": "published",
     "provenance": [
@@ -747,8 +747,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-a16.png",
-      "thumbhash": "xfeBAgATp495yHgLoI6w+vfodniMZcg="
+      "frontOff": "/devices/samsung/galaxy-a16.webp",
+      "thumbhash": "AgiCAgASuH9I11jgqHKeB/f3dniNZtg="
     },
     "status": "published",
     "provenance": [
@@ -773,8 +773,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-a16-5g.png",
-      "thumbhash": "xfeBAgASl4+KyHhHcNoAqffod3iMdsg="
+      "frontOff": "/devices/samsung/galaxy-a16-5g.webp",
+      "thumbhash": "AwiCAgASxn842Ej4nrD/GPf3dniOZtg="
     },
     "status": "published",
     "provenance": [
@@ -798,8 +798,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-a26.png",
-      "thumbhash": "0PeFAgATCIoolzgXcFVQVvfod3eNZdg="
+      "frontOff": "/devices/samsung/galaxy-a26.webp",
+      "thumbhash": "AwiCAgASpn9YyFjxiCbvRvfnd3d9dsg="
     },
     "status": "published",
     "provenance": [
@@ -825,8 +825,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-a36.png",
-      "thumbhash": "x/eBAgASl3+buIj8pPKnO/fod3eLdrg="
+      "frontOff": "/devices/samsung/galaxy-a36.webp",
+      "thumbhash": "AgiCAgASqH9Y11jyapWPKffnd3iMdrg="
     },
     "status": "published",
     "provenance": [
@@ -851,8 +851,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-a56.png",
-      "thumbhash": "CgiCAgASNXoK2FhvePXSJffnd3iLdrg="
+      "frontOff": "/devices/samsung/galaxy-a56.webp",
+      "thumbhash": "AwiCAgASlX9ZuFigfGj+kPf3d3eLdrg="
     },
     "status": "published",
     "provenance": [
@@ -875,8 +875,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-f06-5g.png",
-      "thumbhash": "BAiCAgAT1n842Ei6cGlvWffodniNZtg="
+      "frontOff": "/devices/samsung/galaxy-f06-5g.webp",
+      "thumbhash": "AwiCAgAS2H8pyDkqiv/0pvf4dneNZtg="
     },
     "status": "published",
     "provenance": [
@@ -900,8 +900,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-f16.png",
-      "thumbhash": "BAiCAgAStX9I2EjXcKcPWvfodniMZsg="
+      "frontOff": "/devices/samsung/galaxy-f16.webp",
+      "thumbhash": "AgiCAgASpG97qHg9xv/kvPfndniMZsg="
     },
     "status": "published",
     "provenance": [
@@ -924,8 +924,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-f36.png",
-      "thumbhash": "BAiCAgASxH9I6Fj3gLUfiPfnd3eMdsg="
+      "frontOff": "/devices/samsung/galaxy-f36.webp",
+      "thumbhash": "BAiCAgASpn9pyGj0Y8JsCPfndniMZsg="
     },
     "status": "published",
     "provenance": [
@@ -949,8 +949,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-f56.png",
-      "thumbhash": "xQeCAgASvY8550jocEd/V/fnd3eLdrg="
+      "frontOff": "/devices/samsung/galaxy-f56.webp",
+      "thumbhash": "AgiCAgASqH+LuHiP+Y3v6/fnd3iLZrg="
     },
     "status": "published",
     "provenance": [
@@ -973,8 +973,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-m06.png",
-      "thumbhash": "AwiCAgATxn84yDj4coQvdvfodniNZtg="
+      "frontOff": "/devices/samsung/galaxy-m06.webp",
+      "thumbhash": "w/eBAgASxX9JyEgfy/9zuff4dniNZtg="
     },
     "status": "published",
     "provenance": [
@@ -997,8 +997,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/15-ultra.png",
-      "thumbhash": "BQiCAgAS+IsItwiQegrvFvf3d3eLdrg="
+      "frontOff": "/devices/xiaomi/15-ultra.webp",
+      "thumbhash": "x/eBAgAS6XoJlxhtgK4MZ/fnd3iMdsg="
     },
     "status": "published",
     "provenance": [
@@ -1022,8 +1022,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/15s-pro.png",
-      "thumbhash": "BQiCAgAS5nsIuAfpazBPCffnd3eLdrg="
+      "frontOff": "/devices/xiaomi/15s-pro.webp",
+      "thumbhash": "xQeCAgAStn9MuFjvgPQfGffneHiLdrg="
     },
     "status": "published",
     "provenance": [
@@ -1048,8 +1048,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/civi-5-pro.png",
-      "thumbhash": "1AeGAgATB4c4d0cHeVSVB/j4eXeMhbg="
+      "frontOff": "/devices/xiaomi/civi-5-pro.webp",
+      "thumbhash": "xQeCAgAS2o1PiFg9Yl8IVvf3eHeLhbg="
     },
     "status": "published",
     "provenance": [
@@ -1072,8 +1072,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/poco-c71.png",
-      "thumbhash": "AgiCAgAS+H4X6Cj3d2FvZ/fndniOZeg="
+      "frontOff": "/devices/xiaomi/poco-c71.webp",
+      "thumbhash": "w/eBAgATun9KuHl/g4l/TffndniMZsg="
     },
     "status": "published",
     "provenance": [
@@ -1097,8 +1097,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/poco-f7.png",
-      "thumbhash": "BAiCAgAS93sIqAf1hBY/N/fnd3eLdrg="
+      "frontOff": "/devices/xiaomi/poco-f7.webp",
+      "thumbhash": "xPeBAgAS6X0JuBhkgn8Mlffod3iNZtg="
     },
     "status": "published",
     "provenance": [
@@ -1121,8 +1121,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/poco-f7-pro.png",
-      "thumbhash": "yPeBAwAS+H85yDj9hveaaPfnd3iMdsg="
+      "frontOff": "/devices/xiaomi/poco-f7-pro.webp",
+      "thumbhash": "BwiCAgAS6I4MmCiPhvm9Z/fneHiMdrg="
     },
     "status": "published",
     "provenance": [
@@ -1145,8 +1145,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/poco-f7-ultra.png",
-      "thumbhash": "CPiBAgASun9qx2f6hHZfaPfnd3eLdrg="
+      "frontOff": "/devices/xiaomi/poco-f7-ultra.webp",
+      "thumbhash": "xgeCAgAR+3wKlxi/hsg/evj4d3eNdsg="
     },
     "status": "published",
     "provenance": [
@@ -1170,8 +1170,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/poco-m7.png",
-      "thumbhash": "BQiCAgATqH9oyHj6hcQvNvjodniNZsg="
+      "frontOff": "/devices/xiaomi/poco-m7.webp",
+      "thumbhash": "AwiCAgASqY9ruGjHrzJvLffnd3iMdsg="
     },
     "status": "published",
     "provenance": [
@@ -1195,8 +1195,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/poco-x7.png",
-      "thumbhash": "zveBAgAS/IwKlwjxdFFvB/joeHh6dqg="
+      "frontOff": "/devices/xiaomi/poco-x7.webp",
+      "thumbhash": "BAiCAgAS/WtKiFj8Yvt9aPjoeHiLdrg="
     },
     "status": "published",
     "provenance": [
@@ -1221,8 +1221,8 @@
     ],
     "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/xiaomi/poco-x7-pro.png",
-      "thumbhash": "x/eBAgASyn9at1j8iPdYd/jod3iMdsg="
+      "frontOff": "/devices/xiaomi/poco-x7-pro.webp",
+      "thumbhash": "BAiCAgASuI9cmFjflYZPNffneHiLhrg="
     },
     "status": "published",
     "provenance": [

@@ -5,8 +5,8 @@
   "aliases": ["Xiaomi Poco M7", "Poco M7 (8GB RAM)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/xiaomi/poco-m7.png",
-    "thumbhash": "BQiCAgATqH9oyHj6hcQvNvjodniNZsg="
+    "frontOff": "/devices/xiaomi/poco-m7.webp",
+    "thumbhash": "AwiCAgASqY9ruGjHrzJvLffnd3iMdsg="
   },
   "status": "published",
   "provenance": [
