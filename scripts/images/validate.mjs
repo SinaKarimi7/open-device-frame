@@ -9,15 +9,12 @@ for (const d of await readDevices())
       const image = await readFile(
         path.join(root, "public", d.images.frontOff),
       );
-      if (d.images.frontOff.endsWith(".png")) {
-        if (
-          image
-            .subarray(0, 8)
-            .compare(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) !== 0
-        )
-          errors.push(`${d.id}: invalid PNG`);
-      } else if (!image.toString("utf8").includes("<svg"))
-        errors.push(`${d.id}: invalid legacy SVG`);
+      if (
+        image
+          .subarray(0, 8)
+          .compare(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) !== 0
+      )
+        errors.push(`${d.id}: invalid PNG`);
       if (image.length > 500000) errors.push(`${d.id}: image exceeds 500KB`);
     } catch {
       errors.push(`${d.id}: unreadable image`);

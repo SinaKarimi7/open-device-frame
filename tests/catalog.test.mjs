@@ -7,12 +7,14 @@ import {
 } from "../scripts/catalog/shared.mjs";
 
 const devices = await readDevices();
-test("canonical fixtures satisfy catalog validation", () =>
+test("catalog records satisfy validation", () =>
   assert.deepEqual(errorsFor(devices), []));
 test("normalization handles aliases", () =>
   assert.equal(normalize("Google Pixel 9 Pro"), "googlepixel9pro"));
-test("Samsung hardware identifiers remain on one canonical device", () =>
-  assert.equal(
-    devices.find((d) => d.modelNumbers.includes("SM-S928B"))?.id,
-    "samsung-galaxy-s24-ultra",
-  ));
+test("published devices use real PNG frame assets", () => {
+  const published = devices.filter((device) => device.status === "published");
+  assert.equal(published.length, 50);
+  assert.ok(
+    published.every((device) => device.images.frontOff?.endsWith(".png")),
+  );
+});

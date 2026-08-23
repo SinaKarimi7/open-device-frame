@@ -17,7 +17,7 @@ pnpm dev
 - Generated indexes: `catalog/generated/` (never edit these by hand)
 - Assets: `public/devices/<brand>/<device>.png`
 
-New assets use PNG with a transparent background, straight-on full device, and powered-off black screen. Files must be under 500KB. Legacy SVG fixtures remain valid until replaced. This is deliberately an illustration contract, not manufacturer-authorized photography.
+Assets are real PNG device frames with a transparent background and transparent display opening. The physical frame is solid black, straight-on, and tightly cropped to its natural aspect ratio. Files must be under 500KB. This is deliberately an illustration contract, not manufacturer-authorized photography.
 
 ## API
 
