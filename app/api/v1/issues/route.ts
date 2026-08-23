@@ -1,3 +1,8 @@
+import {
+  isHttpUrl,
+  issueTitleExists,
+  takeIssueRequestSlot,
+} from "@/lib/api/issue-guard";
 import { apiError } from "@/lib/api/response";
 import { getDevice, resolveDevice } from "@/lib/catalog/catalog";
 
@@ -11,6 +16,13 @@ const value = (input: unknown, maximum: number) =>
     ? input.trim()
     : "";
 export async function POST(request: Request) {
+  const retryAfter = takeIssueRequestSlot(request);
+  if (retryAfter !== undefined)
+    return apiError(
+      "RATE_LIMITED",
+      "Too many issue submissions. Please try again later.",
+      429,
+    );
   const input: unknown = await request.json().catch(() => undefined);
   if (!input || typeof input !== "object")
     return apiError("INVALID_REQUEST", "Request body must be JSON.", 400);
@@ -24,12 +36,12 @@ export async function POST(request: Request) {
       "A valid report type and details are required.",
       400,
     );
-  if (referenceUrl)
-    try {
-      new URL(referenceUrl);
-    } catch {
-      return apiError("INVALID_REQUEST", "Reference URL must be valid.", 400);
-    }
+  if (referenceUrl && !isHttpUrl(referenceUrl))
+    return apiError(
+      "INVALID_REQUEST",
+      "Reference URL must use HTTP or HTTPS.",
+      400,
+    );
   const brand = value(body.brand, 80);
   const model = value(body.model, 120);
   const deviceId = value(body.deviceId, 120);
@@ -61,6 +73,27 @@ export async function POST(request: Request) {
     type === "device-request"
       ? `Device request: ${brand} ${model}`
       : `${type === "incorrect-image" ? "Incorrect image" : "Incorrect metadata"}: ${device?.brand} ${device?.model}`;
+  if (type === "device-request") {
+    const existingIssues = await fetch(
+      `https://api.github.com/repos/${repository}/issues?state=open&labels=device-request&per_page=100`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          Accept: "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+      },
+    );
+    if (
+      existingIssues.ok &&
+      issueTitleExists(await existingIssues.json(), title)
+    )
+      return apiError(
+        "INVALID_REQUEST",
+        "An open request already exists for this device.",
+        409,
+      );
+  }
   const issueBody = [
     `## ${type}`,
     `Device ID: ${device?.id ?? "N/A"}`,
