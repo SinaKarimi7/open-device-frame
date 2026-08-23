@@ -57,5 +57,4 @@ give either variable a `NEXT_PUBLIC_` prefix.
 
 ## Licensing
 
-No license has been selected. Code, catalog data, and image assets require
-separate licensing decisions before public contributions are accepted.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
