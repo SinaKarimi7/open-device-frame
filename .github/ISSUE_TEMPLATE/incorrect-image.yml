@@ -1,0 +1,10 @@
+name: Incorrect image
+description: Report a device image problem.
+labels: [incorrect-image, needs-triage]
+body:
+  - type: input
+    attributes: { label: Device ID }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: What is wrong? }
+    validations: { required: true }

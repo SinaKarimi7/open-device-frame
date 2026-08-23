@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://community-phone-images.dev/schemas/device.schema.json",
+  "title": "Canonical device record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "brand",
+    "model",
+    "aliases",
+    "modelNumbers",
+    "images",
+    "status"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "brand": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "model": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "family": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "releaseYear": { "type": "integer", "minimum": 1980, "maximum": 2100 },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1, "maxLength": 120 },
+      "uniqueItems": true
+    },
+    "modelNumbers": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1, "maxLength": 80 },
+      "uniqueItems": true
+    },
+    "images": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["frontOff"],
+      "properties": {
+        "frontOff": {
+          "type": "string",
+          "pattern": "^/devices/[a-z0-9-]+/[a-z0-9-]+\\.svg$"
+        }
+      }
+    },
+    "status": { "enum": ["published", "draft", "deprecated"] },
+    "notes": { "type": "string", "maxLength": 500 }
+  }
+}

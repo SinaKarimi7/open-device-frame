@@ -1,0 +1,1 @@
+export default function NotFound() { return <section><h1>Device not found</h1><p>The requested device is not in the published catalog.</p><a className="button" href="/devices">Browse the catalog</a></section>; }

@@ -1,0 +1,10 @@
+name: Incorrect metadata
+description: Report a catalog metadata problem.
+labels: [incorrect-metadata, needs-triage]
+body:
+  - type: input
+    attributes: { label: Device ID }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: What needs correction? }
+    validations: { required: true }

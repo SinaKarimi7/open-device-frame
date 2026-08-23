@@ -1,0 +1,11 @@
+{
+  "id": "samsung-galaxy-s24-ultra",
+  "brand": "Samsung",
+  "model": "Galaxy S24 Ultra",
+  "family": "Galaxy S",
+  "releaseYear": 2024,
+  "aliases": ["Samsung S24 Ultra", "Galaxy S24U"],
+  "modelNumbers": ["SM-S928B", "SM-S928U", "SM-S928U1"],
+  "images": { "frontOff": "/devices/samsung/galaxy-s24-ultra.svg" },
+  "status": "published"
+}

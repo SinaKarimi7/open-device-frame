@@ -1,0 +1,78 @@
+[
+  {
+    "id": "apple-iphone-16-pro",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "family": "iPhone",
+    "releaseYear": 2024,
+    "aliases": [
+      "Apple iPhone 16 Pro",
+      "iPhone16Pro"
+    ],
+    "modelNumbers": [
+      "A3083",
+      "A3292"
+    ],
+    "images": {
+      "frontOff": "/devices/apple/iphone-16-pro.svg"
+    },
+    "status": "published"
+  },
+  {
+    "id": "google-pixel-9-pro",
+    "brand": "Google",
+    "model": "Pixel 9 Pro",
+    "family": "Pixel",
+    "releaseYear": 2024,
+    "aliases": [
+      "Google Pixel 9 Pro",
+      "Pixel 9Pro"
+    ],
+    "modelNumbers": [
+      "G2YBB",
+      "GR83Y"
+    ],
+    "images": {
+      "frontOff": "/devices/google/pixel-9-pro.svg"
+    },
+    "status": "published"
+  },
+  {
+    "id": "oneplus-13",
+    "brand": "OnePlus",
+    "model": "OnePlus 13",
+    "family": "OnePlus",
+    "releaseYear": 2025,
+    "aliases": [
+      "One Plus 13",
+      "OnePlus13"
+    ],
+    "modelNumbers": [
+      "CPH2655"
+    ],
+    "images": {
+      "frontOff": "/devices/oneplus/oneplus-13.svg"
+    },
+    "status": "published"
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "family": "Galaxy S",
+    "releaseYear": 2024,
+    "aliases": [
+      "Samsung S24 Ultra",
+      "Galaxy S24U"
+    ],
+    "modelNumbers": [
+      "SM-S928B",
+      "SM-S928U",
+      "SM-S928U1"
+    ],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-s24-ultra.svg"
+    },
+    "status": "published"
+  }
+]

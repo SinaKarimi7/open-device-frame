@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+.tmp/
+.generations/
+raw-assets/
+*.tsbuildinfo
+.env*
+!.env.example

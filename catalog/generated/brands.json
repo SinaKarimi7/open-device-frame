@@ -1,0 +1,14 @@
+{
+  "apple": [
+    "apple-iphone-16-pro"
+  ],
+  "google": [
+    "google-pixel-9-pro"
+  ],
+  "oneplus": [
+    "oneplus-13"
+  ],
+  "samsung": [
+    "samsung-galaxy-s24-ultra"
+  ]
+}

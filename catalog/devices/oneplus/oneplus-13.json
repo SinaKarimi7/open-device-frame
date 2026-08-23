@@ -1,0 +1,11 @@
+{
+  "id": "oneplus-13",
+  "brand": "OnePlus",
+  "model": "OnePlus 13",
+  "family": "OnePlus",
+  "releaseYear": 2025,
+  "aliases": ["One Plus 13", "OnePlus13"],
+  "modelNumbers": ["CPH2655"],
+  "images": { "frontOff": "/devices/oneplus/oneplus-13.svg" },
+  "status": "published"
+}

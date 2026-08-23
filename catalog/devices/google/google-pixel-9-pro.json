@@ -1,0 +1,11 @@
+{
+  "id": "google-pixel-9-pro",
+  "brand": "Google",
+  "model": "Pixel 9 Pro",
+  "family": "Pixel",
+  "releaseYear": 2024,
+  "aliases": ["Google Pixel 9 Pro", "Pixel 9Pro"],
+  "modelNumbers": ["G2YBB", "GR83Y"],
+  "images": { "frontOff": "/devices/google/pixel-9-pro.svg" },
+  "status": "published"
+}

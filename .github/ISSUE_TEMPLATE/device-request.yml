@@ -1,0 +1,14 @@
+name: Device request
+description: Request a device that is missing from the catalog.
+labels: [device-request, needs-triage]
+body:
+  - type: input
+    attributes: { label: Brand }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Model }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Known model number }
+  - type: textarea
+    attributes: { label: References and notes }
