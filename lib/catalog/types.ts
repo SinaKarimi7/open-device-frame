@@ -2,6 +2,7 @@ export type DeviceStatus = "published" | "draft" | "deprecated";
 
 export interface DeviceImages {
   frontOff?: string;
+  thumbhash?: string;
 }
 
 export interface DeviceProvenance {

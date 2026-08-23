@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { DeviceImage } from "@/components/device-image";
 import { getDevice } from "@/lib/catalog/catalog";
 
 export default async function DevicePage({
@@ -10,10 +11,14 @@ export default async function DevicePage({
   if (!device) notFound();
   return (
     <article className="device-detail">
-      <img
-        src={device.images.frontOff}
-        alt={`${device.brand} ${device.model} front view`}
-      />
+      <div className="device-detail-image">
+        <DeviceImage
+          alt={`${device.brand} ${device.model} front view`}
+          sizes="(max-width: 650px) 100vw, 40vw"
+          src={device.images.frontOff!}
+          thumbhash={device.images.thumbhash!}
+        />
+      </div>
       <div>
         <p className="eyebrow">{device.brand}</p>
         <h1>{device.model}</h1>

@@ -5,7 +5,8 @@
   "aliases": ["Huawei Pura 80 Ultra", "Pura 80 Ultra (1TB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/huawei/pura-80-ultra.png"
+    "frontOff": "/devices/huawei/pura-80-ultra.png",
+    "thumbhash": "x/eBAgAS3HkLdwhKl+/I9ffneHeLdrg="
   },
   "status": "published",
   "provenance": [

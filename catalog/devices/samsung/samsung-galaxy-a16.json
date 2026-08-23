@@ -5,7 +5,8 @@
   "aliases": ["Samsung Galaxy A16"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/samsung/galaxy-a16.png"
+    "frontOff": "/devices/samsung/galaxy-a16.png",
+    "thumbhash": "xfeBAgATp495yHgLoI6w+vfodniMZcg="
   },
   "status": "published",
   "provenance": [

@@ -5,7 +5,8 @@
   "aliases": ["Xiaomi Poco F7", "Poco F7 (512GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/xiaomi/poco-f7.png"
+    "frontOff": "/devices/xiaomi/poco-f7.png",
+    "thumbhash": "BAiCAgAS93sIqAf1hBY/N/fnd3eLdrg="
   },
   "status": "published",
   "provenance": [

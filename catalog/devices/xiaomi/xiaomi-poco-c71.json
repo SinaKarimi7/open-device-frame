@@ -5,7 +5,8 @@
   "aliases": ["Xiaomi Poco C71"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/xiaomi/poco-c71.png"
+    "frontOff": "/devices/xiaomi/poco-c71.png",
+    "thumbhash": "AgiCAgAS+H4X6Cj3d2FvZ/fndniOZeg="
   },
   "status": "published",
   "provenance": [

@@ -5,7 +5,8 @@
   "aliases": ["Samsung Galaxy F36"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/samsung/galaxy-f36.png"
+    "frontOff": "/devices/samsung/galaxy-f36.png",
+    "thumbhash": "BAiCAgASxH9I6Fj3gLUfiPfnd3eMdsg="
   },
   "status": "published",
   "provenance": [

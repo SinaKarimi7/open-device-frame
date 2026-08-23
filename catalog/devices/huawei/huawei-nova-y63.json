@@ -5,7 +5,8 @@
   "aliases": ["Huawei Nova Y63"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/huawei/nova-y63.png"
+    "frontOff": "/devices/huawei/nova-y63.png",
+    "thumbhash": "BwiCAgAS938ZyBiblv99Wvfndnd9Zsg="
   },
   "status": "published",
   "provenance": [

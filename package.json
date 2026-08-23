@@ -15,18 +15,21 @@
     "catalog:import": "node scripts/catalog/import-kaggle.mjs",
     "catalog:validate": "node scripts/catalog/validate.mjs",
     "images:validate": "node scripts/images/validate.mjs",
+    "images:thumbhash": "node scripts/images/thumbhash.mjs",
     "verify": "pnpm catalog:validate && pnpm images:validate && pnpm typecheck && pnpm lint && pnpm test && pnpm build"
   },
   "dependencies": {
     "next": "16.3.2",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "thumbhash": "^0.1.1"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.10",
     "@types/node": "26.2.0",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
+    "sharp": "^0.35.3",
     "typescript": "7.0.2"
   }
 }

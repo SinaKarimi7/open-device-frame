@@ -5,7 +5,8 @@
   "aliases": ["Huawei Enjoy 80"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/huawei/enjoy-80.png"
+    "frontOff": "/devices/huawei/enjoy-80.png",
+    "thumbhash": "xweCAgAS13842EgpgL5fO/fYd3iMZsg="
   },
   "status": "published",
   "provenance": [

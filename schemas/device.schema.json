@@ -36,6 +36,12 @@
         "frontOff": {
           "type": "string",
           "pattern": "^/devices/[a-z0-9-]+/[a-z0-9-]+\\.png$"
+        },
+        "thumbhash": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9+/]+={0,2}$",
+          "minLength": 20,
+          "maxLength": 128
         }
       }
     },
@@ -61,7 +67,7 @@
       "if": { "properties": { "status": { "const": "published" } } },
       "then": {
         "required": ["family", "releaseYear"],
-        "properties": { "images": { "required": ["frontOff"] } }
+        "properties": { "images": { "required": ["frontOff", "thumbhash"] } }
       }
     }
   ]

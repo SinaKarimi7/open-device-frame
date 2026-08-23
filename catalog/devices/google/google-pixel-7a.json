@@ -5,7 +5,8 @@
   "aliases": ["Google Pixel 7a"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/google/pixel-7a.png"
+    "frontOff": "/devices/google/pixel-7a.png",
+    "thumbhash": "xveBAgAj9345x0gDdK30Wvfnd3eMdsg="
   },
   "status": "published",
   "provenance": [

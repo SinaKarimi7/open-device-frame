@@ -5,7 +5,8 @@
   "aliases": ["Samsung Galaxy F16", "Galaxy F16 (8GB RAM)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/samsung/galaxy-f16.png"
+    "frontOff": "/devices/samsung/galaxy-f16.png",
+    "thumbhash": "BAiCAgAStX9I2EjXcKcPWvfodniMZsg="
   },
   "status": "published",
   "provenance": [

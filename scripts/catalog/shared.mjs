@@ -51,6 +51,15 @@ export function errorsFor(devices) {
       errors.push(
         `${d.id || "unknown"}: published records require frontOff image`,
       );
+    if (
+      d.images?.thumbhash !== undefined &&
+      !/^[A-Za-z0-9+/]+={0,2}$/.test(d.images.thumbhash)
+    )
+      errors.push(`${d.id || "unknown"}: invalid image thumbhash`);
+    if (d.status === "published" && !d.images?.thumbhash)
+      errors.push(
+        `${d.id || "unknown"}: published records require an image thumbhash`,
+      );
     if (d.status === "published" && !d.family)
       errors.push(`${d.id || "unknown"}: published records require family`);
     if (d.status === "published" && !Number.isInteger(d.releaseYear))

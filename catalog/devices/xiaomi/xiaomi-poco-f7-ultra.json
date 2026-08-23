@@ -5,7 +5,8 @@
   "aliases": ["Xiaomi Poco F7 Ultra"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/xiaomi/poco-f7-ultra.png"
+    "frontOff": "/devices/xiaomi/poco-f7-ultra.png",
+    "thumbhash": "CPiBAgASun9qx2f6hHZfaPfnd3eLdrg="
   },
   "status": "published",
   "provenance": [

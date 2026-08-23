@@ -5,7 +5,8 @@
   "aliases": ["Google Pixel 9", "Pixel 9 (256GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/google/pixel-9.png"
+    "frontOff": "/devices/google/pixel-9.png",
+    "thumbhash": "BAiCAgASiY97qIj7bUnrQPjoeHeLhrg="
   },
   "status": "published",
   "provenance": [

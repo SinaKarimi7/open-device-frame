@@ -5,7 +5,8 @@
   "aliases": ["Apple iPhone 15", "iPhone 15 (256GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/apple/iphone-15.png"
+    "frontOff": "/devices/apple/iphone-15.png",
+    "thumbhash": "xPeBAwAS+4pdd2cJa7qwt/f3iYd8hcc="
   },
   "status": "published",
   "provenance": [

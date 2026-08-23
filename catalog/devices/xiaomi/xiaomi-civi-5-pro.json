@@ -9,7 +9,8 @@
   ],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/xiaomi/civi-5-pro.png"
+    "frontOff": "/devices/xiaomi/civi-5-pro.png",
+    "thumbhash": "1AeGAgATB4c4d0cHeVSVB/j4eXeMhbg="
   },
   "status": "published",
   "provenance": [

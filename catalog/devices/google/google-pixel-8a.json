@@ -5,7 +5,8 @@
   "aliases": ["Google Pixel 8a"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/google/pixel-8a.png"
+    "frontOff": "/devices/google/pixel-8a.png",
+    "thumbhash": "AwiCAgAjmH96uIi/ernk/PjYd3eLdrg="
   },
   "status": "published",
   "provenance": [

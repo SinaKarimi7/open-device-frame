@@ -10,7 +10,8 @@
   ],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/apple/iphone-15-pro.png"
+    "frontOff": "/devices/apple/iphone-15-pro.png",
+    "thumbhash": "BwiCAgAS+IxOeGf4e4WvZuj4iYd7hbc="
   },
   "status": "published",
   "provenance": [

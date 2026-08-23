@@ -5,7 +5,8 @@
   "aliases": ["Huawei Enjoy 70X"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/huawei/enjoy-70x.png"
+    "frontOff": "/devices/huawei/enjoy-70x.png",
+    "thumbhash": "0feBAgAS+HcJdxePiovNCfj4eHeNhsg="
   },
   "status": "published",
   "provenance": [

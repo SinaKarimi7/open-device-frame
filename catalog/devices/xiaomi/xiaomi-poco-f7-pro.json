@@ -5,7 +5,8 @@
   "aliases": ["Xiaomi Poco F7 Pro"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/xiaomi/poco-f7-pro.png"
+    "frontOff": "/devices/xiaomi/poco-f7-pro.png",
+    "thumbhash": "yPeBAwAS+H85yDj9hveaaPfnd3iMdsg="
   },
   "status": "published",
   "provenance": [

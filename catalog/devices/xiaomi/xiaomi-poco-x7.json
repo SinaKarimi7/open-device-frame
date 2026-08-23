@@ -5,7 +5,8 @@
   "aliases": ["Xiaomi Poco X7", "Poco X7 (256GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/xiaomi/poco-x7.png"
+    "frontOff": "/devices/xiaomi/poco-x7.png",
+    "thumbhash": "zveBAgAS/IwKlwjxdFFvB/joeHh6dqg="
   },
   "status": "published",
   "provenance": [

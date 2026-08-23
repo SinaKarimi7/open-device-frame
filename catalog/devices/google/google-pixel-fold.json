@@ -5,7 +5,8 @@
   "aliases": ["Google Pixel Fold", "Pixel Fold (12GB+512GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/google/pixel-fold.png"
+    "frontOff": "/devices/google/pixel-fold.png",
+    "thumbhash": "A/iBBYATx/ePeIPXWE+yFR8Xx8d3eH925w=="
   },
   "status": "published",
   "provenance": [

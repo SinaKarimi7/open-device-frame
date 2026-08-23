@@ -1,5 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
+import { DeviceImage } from "@/components/device-image";
 import type { DeviceRecord } from "@/lib/catalog/types";
 
 export function DeviceCatalog({
@@ -52,7 +53,14 @@ export function DeviceCatalog({
         <div className="grid">
           {results.map((device) => (
             <a className="card" href={`/devices/${device.id}`} key={device.id}>
-              <img src={device.images.frontOff} alt="" />
+              <div className="card-image">
+                <DeviceImage
+                  alt=""
+                  sizes="(max-width: 650px) 100vw, (max-width: 1120px) 50vw, 205px"
+                  src={device.images.frontOff!}
+                  thumbhash={device.images.thumbhash!}
+                />
+              </div>
               <span>{device.brand}</span>
               <strong>{device.model}</strong>
             </a>

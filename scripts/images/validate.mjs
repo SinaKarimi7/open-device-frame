@@ -19,6 +19,9 @@ for (const d of await readDevices())
     } catch {
       errors.push(`${d.id}: unreadable image`);
     }
+for (const d of await readDevices())
+  if (d.status === "published" && !d.images.thumbhash)
+    errors.push(`${d.id}: missing ThumbHash placeholder`);
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exitCode = 1;

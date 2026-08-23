@@ -5,7 +5,8 @@
   "aliases": ["Xiaomi 15S Pro", "15S Pro (1TB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/xiaomi/15s-pro.png"
+    "frontOff": "/devices/xiaomi/15s-pro.png",
+    "thumbhash": "BQiCAgAS5nsIuAfpazBPCffnd3eLdrg="
   },
   "status": "published",
   "provenance": [

@@ -5,7 +5,8 @@
   "aliases": ["Huawei Pura 80"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/huawei/pura-80.png"
+    "frontOff": "/devices/huawei/pura-80.png",
+    "thumbhash": "xfeBAgAS83wbqCj6g/fP2vjod3eLdqg="
   },
   "status": "published",
   "provenance": [

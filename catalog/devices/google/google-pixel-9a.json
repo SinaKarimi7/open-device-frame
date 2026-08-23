@@ -5,7 +5,8 @@
   "aliases": ["Google Pixel 9a"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/google/pixel-9a.png"
+    "frontOff": "/devices/google/pixel-9a.png",
+    "thumbhash": "BAiCAgASmH96uIj0dAVWQ/fXd3eLdrg="
   },
   "status": "published",
   "provenance": [

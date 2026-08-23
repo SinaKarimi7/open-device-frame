@@ -5,7 +5,8 @@
   "aliases": ["Samsung Galaxy F56", "Galaxy F56 (256GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/samsung/galaxy-f56.png"
+    "frontOff": "/devices/samsung/galaxy-f56.png",
+    "thumbhash": "xQeCAgASvY8550jocEd/V/fnd3eLdrg="
   },
   "status": "published",
   "provenance": [

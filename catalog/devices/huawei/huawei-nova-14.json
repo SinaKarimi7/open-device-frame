@@ -5,7 +5,8 @@
   "aliases": ["Huawei Nova 14"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/huawei/nova-14.png"
+    "frontOff": "/devices/huawei/nova-14.png",
+    "thumbhash": "CQiCAgAS+oYcVzjswLq/J/f3eYd8hcg="
   },
   "status": "published",
   "provenance": [

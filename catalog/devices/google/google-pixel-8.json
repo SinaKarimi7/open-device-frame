@@ -5,7 +5,8 @@
   "aliases": ["Google Pixel 8", "Pixel 8 (256GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/google/pixel-8.png"
+    "frontOff": "/devices/google/pixel-8.png",
+    "thumbhash": "xfeBAgATx39Kt1hJkU8IiPfneHeLdqg="
   },
   "status": "published",
   "provenance": [

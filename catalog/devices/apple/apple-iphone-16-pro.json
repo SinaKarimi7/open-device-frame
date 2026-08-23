@@ -7,7 +7,8 @@
   "aliases": ["Apple iPhone 16 Pro", "iPhone16Pro"],
   "modelNumbers": ["A3083", "A3292"],
   "images": {
-    "frontOff": "/devices/apple/iphone-16-pro.png"
+    "frontOff": "/devices/apple/iphone-16-pro.png",
+    "thumbhash": "CAiCAgAS+IVdSHj+obePV+f3iYd8hbc="
   },
   "status": "published"
 }

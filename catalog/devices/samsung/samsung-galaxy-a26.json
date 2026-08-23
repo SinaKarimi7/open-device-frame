@@ -5,7 +5,8 @@
   "aliases": ["Samsung Galaxy A26", "Galaxy A26 (8GB+256GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/samsung/galaxy-a26.png"
+    "frontOff": "/devices/samsung/galaxy-a26.png",
+    "thumbhash": "0PeFAgATCIoolzgXcFVQVvfod3eNZdg="
   },
   "status": "published",
   "provenance": [

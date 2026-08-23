@@ -5,7 +5,8 @@
   "aliases": ["Apple iPhone 16e", "iPhone 16e (256GB)"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/apple/iphone-16e.png"
+    "frontOff": "/devices/apple/iphone-16e.png",
+    "thumbhash": "AgiCAgAS94c7SFdaZU+Pdff3iYd8hbc="
   },
   "status": "published",
   "provenance": [

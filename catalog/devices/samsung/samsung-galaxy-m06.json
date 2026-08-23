@@ -5,7 +5,8 @@
   "aliases": ["Samsung Galaxy M06"],
   "modelNumbers": [],
   "images": {
-    "frontOff": "/devices/samsung/galaxy-m06.png"
+    "frontOff": "/devices/samsung/galaxy-m06.png",
+    "thumbhash": "AwiCAgATxn84yDj4coQvdvfodniNZtg="
   },
   "status": "published",
   "provenance": [
