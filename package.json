@@ -16,7 +16,7 @@
     "verify": "pnpm catalog:validate && pnpm images:validate && pnpm typecheck && pnpm lint && pnpm test && pnpm build"
   },
   "dependencies": {
-    "next": "15.5.0",
+    "next": "15.5.21",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
