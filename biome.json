@@ -6,6 +6,8 @@
       "!node_modules",
       "!.next",
       "!catalog/generated",
+      "!.generations",
+      "!.tmp",
       "!next-env.d.ts"
     ]
   },

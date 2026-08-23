@@ -4,9 +4,10 @@
   "model": "Galaxy A56",
   "aliases": ["Galaxy A56 (12GB+256GB)", "Galaxy A56 (256GB)"],
   "modelNumbers": [],
-  "images": {},
-  "status": "draft",
-  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "images": {
+    "frontOff": "/devices/samsung/galaxy-a56.png"
+  },
+  "status": "published",
   "provenance": [
     {
       "source": "Kaggle: Global Smartphone Database 2025",

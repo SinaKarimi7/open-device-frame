@@ -8,7 +8,6 @@ for (const d of await readDevices())
     try {
       const image = await readFile(
         path.join(root, "public", d.images.frontOff),
-        "utf8",
       );
       if (d.images.frontOff.endsWith(".png")) {
         if (

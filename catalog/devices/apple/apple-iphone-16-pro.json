@@ -6,6 +6,8 @@
   "releaseYear": 2024,
   "aliases": ["Apple iPhone 16 Pro", "iPhone16Pro"],
   "modelNumbers": ["A3083", "A3292"],
-  "images": { "frontOff": "/devices/apple/iphone-16-pro.svg" },
+  "images": {
+    "frontOff": "/devices/apple/iphone-16-pro.png"
+  },
   "status": "published"
 }

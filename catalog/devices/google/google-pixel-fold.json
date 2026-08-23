@@ -4,9 +4,10 @@
   "model": "Pixel Fold",
   "aliases": ["Pixel Fold (12GB+512GB)"],
   "modelNumbers": [],
-  "images": {},
-  "status": "draft",
-  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "images": {
+    "frontOff": "/devices/google/pixel-fold.png"
+  },
+  "status": "published",
   "provenance": [
     {
       "source": "Kaggle: Global Smartphone Database 2025",

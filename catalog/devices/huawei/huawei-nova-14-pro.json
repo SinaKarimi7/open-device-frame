@@ -4,9 +4,10 @@
   "model": "Nova 14 Pro",
   "aliases": [],
   "modelNumbers": [],
-  "images": {},
-  "status": "draft",
-  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "images": {
+    "frontOff": "/devices/huawei/nova-14-pro.png"
+  },
+  "status": "published",
   "provenance": [
     {
       "source": "Kaggle: Global Smartphone Database 2025",

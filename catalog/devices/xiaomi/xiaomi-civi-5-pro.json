@@ -4,9 +4,10 @@
   "model": "Civi 5 Pro",
   "aliases": ["Civi 5 Pro (16GB+512GB)", "Civi 5 Pro (512GB)"],
   "modelNumbers": [],
-  "images": {},
-  "status": "draft",
-  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "images": {
+    "frontOff": "/devices/xiaomi/civi-5-pro.png"
+  },
+  "status": "published",
   "provenance": [
     {
       "source": "Kaggle: Global Smartphone Database 2025",

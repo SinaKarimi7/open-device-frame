@@ -6,6 +6,8 @@
   "releaseYear": 2024,
   "aliases": ["Google Pixel 9 Pro", "Pixel 9Pro"],
   "modelNumbers": ["G2YBB", "GR83Y"],
-  "images": { "frontOff": "/devices/google/pixel-9-pro.svg" },
+  "images": {
+    "frontOff": "/devices/google/pixel-9-pro.png"
+  },
   "status": "published"
 }

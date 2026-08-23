@@ -8,9 +8,10 @@
     "Galaxy A36 (8GB RAM)"
   ],
   "modelNumbers": [],
-  "images": {},
-  "status": "draft",
-  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "images": {
+    "frontOff": "/devices/samsung/galaxy-a36.png"
+  },
+  "status": "published",
   "provenance": [
     {
       "source": "Kaggle: Global Smartphone Database 2025",

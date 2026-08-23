@@ -4,9 +4,10 @@
   "model": "Galaxy A26",
   "aliases": ["Galaxy A26 (8GB+256GB)"],
   "modelNumbers": [],
-  "images": {},
-  "status": "draft",
-  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "images": {
+    "frontOff": "/devices/samsung/galaxy-a26.png"
+  },
+  "status": "published",
   "provenance": [
     {
       "source": "Kaggle: Global Smartphone Database 2025",

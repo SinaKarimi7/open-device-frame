@@ -4,9 +4,10 @@
   "model": "Pixel 9 Pro XL",
   "aliases": ["Pixel 9 Pro XL (512GB)", "Pixel 9 Pro XL (256GB)"],
   "modelNumbers": [],
-  "images": {},
-  "status": "draft",
-  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "images": {
+    "frontOff": "/devices/google/pixel-9-pro-xl.png"
+  },
+  "status": "published",
   "provenance": [
     {
       "source": "Kaggle: Global Smartphone Database 2025",
