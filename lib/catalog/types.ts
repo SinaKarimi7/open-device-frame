@@ -1,7 +1,14 @@
 export type DeviceStatus = "published" | "draft" | "deprecated";
 
 export interface DeviceImages {
-  frontOff: string;
+  frontOff?: string;
+}
+
+export interface DeviceProvenance {
+  source: string;
+  url: string;
+  license: string;
+  retrievedAt: string;
 }
 
 export interface DeviceRecord {
@@ -15,6 +22,7 @@ export interface DeviceRecord {
   images: DeviceImages;
   status: DeviceStatus;
   notes?: string;
+  provenance?: DeviceProvenance[];
 }
 
 export interface CatalogIndex {

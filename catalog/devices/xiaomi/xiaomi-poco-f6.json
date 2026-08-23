@@ -1,0 +1,19 @@
+{
+  "id": "xiaomi-poco-f6",
+  "brand": "Xiaomi",
+  "model": "Poco F6",
+  "aliases": ["Poco F6 (12GB RAM)", "Poco F6 (512GB)"],
+  "modelNumbers": [],
+  "images": {},
+  "status": "draft",
+  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "provenance": [
+    {
+      "source": "Kaggle: Global Smartphone Database 2025",
+      "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+      "license": "Apache-2.0",
+      "retrievedAt": "2026-08-23"
+    }
+  ],
+  "releaseYear": 2024
+}

@@ -1,0 +1,19 @@
+{
+  "id": "samsung-galaxy-m51",
+  "brand": "Samsung",
+  "model": "Galaxy M51",
+  "aliases": [],
+  "modelNumbers": [],
+  "images": {},
+  "status": "draft",
+  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "provenance": [
+    {
+      "source": "Kaggle: Global Smartphone Database 2025",
+      "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+      "license": "Apache-2.0",
+      "retrievedAt": "2026-08-23"
+    }
+  ],
+  "releaseYear": 2020
+}

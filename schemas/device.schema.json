@@ -32,7 +32,6 @@
     "images": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["frontOff"],
       "properties": {
         "frontOff": {
           "type": "string",
@@ -41,6 +40,26 @@
       }
     },
     "status": { "enum": ["published", "draft", "deprecated"] },
-    "notes": { "type": "string", "maxLength": 500 }
-  }
+    "notes": { "type": "string", "maxLength": 500 },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "url", "license", "retrievedAt"],
+        "properties": {
+          "source": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "license": { "type": "string" },
+          "retrievedAt": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "published" } } },
+      "then": { "properties": { "images": { "required": ["frontOff"] } } }
+    }
+  ]
 }

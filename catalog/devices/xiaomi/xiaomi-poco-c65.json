@@ -1,0 +1,19 @@
+{
+  "id": "xiaomi-poco-c65",
+  "brand": "Xiaomi",
+  "model": "Poco C65",
+  "aliases": ["Poco C65 (8GB+256GB)", "Poco C65 (6GB RAM)"],
+  "modelNumbers": [],
+  "images": {},
+  "status": "draft",
+  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "provenance": [
+    {
+      "source": "Kaggle: Global Smartphone Database 2025",
+      "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+      "license": "Apache-2.0",
+      "retrievedAt": "2026-08-23"
+    }
+  ],
+  "releaseYear": 2023
+}

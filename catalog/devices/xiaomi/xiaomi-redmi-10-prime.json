@@ -1,0 +1,19 @@
+{
+  "id": "xiaomi-redmi-10-prime",
+  "brand": "Xiaomi",
+  "model": "Redmi 10 Prime",
+  "aliases": ["Redmi 10 Prime (6GB/128GB)"],
+  "modelNumbers": [],
+  "images": {},
+  "status": "draft",
+  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "provenance": [
+    {
+      "source": "Kaggle: Global Smartphone Database 2025",
+      "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+      "license": "Apache-2.0",
+      "retrievedAt": "2026-08-23"
+    }
+  ],
+  "releaseYear": 2021
+}

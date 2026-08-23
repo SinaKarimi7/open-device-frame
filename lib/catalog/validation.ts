@@ -21,12 +21,16 @@ export function validateRecord(value: unknown): string[] {
     )
       errors.push(`${key} must be an array of non-empty strings`);
   }
+  if (!device.images || typeof device.images !== "object")
+    errors.push("images is required");
   if (
-    !device.images ||
-    typeof device.images.frontOff !== "string" ||
-    !imagePattern.test(device.images.frontOff)
+    device.images?.frontOff !== undefined &&
+    (typeof device.images.frontOff !== "string" ||
+      !imagePattern.test(device.images.frontOff))
   )
     errors.push("images.frontOff must be a /devices/<brand>/<file>.svg path");
+  if (device.status === "published" && !device.images?.frontOff)
+    errors.push("published records require images.frontOff");
   if (!statuses.has(device.status ?? ""))
     errors.push("status must be published, draft, or deprecated");
   if (

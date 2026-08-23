@@ -43,17 +43,21 @@ export function errorsFor(devices) {
         `${d.id || "unknown"}: aliases and modelNumbers must be arrays`,
       );
     if (
-      !/^\/devices\/[a-z0-9-]+\/[a-z0-9-]+\.svg$/.test(d.images?.frontOff || "")
+      d.images?.frontOff !== undefined &&
+      !/^\/devices\/[a-z0-9-]+\/[a-z0-9-]+\.svg$/.test(d.images.frontOff)
     )
       errors.push(`${d.id || "unknown"}: invalid frontOff image path`);
+    if (d.status === "published" && !d.images?.frontOff)
+      errors.push(
+        `${d.id || "unknown"}: published records require frontOff image`,
+      );
     if (!["published", "draft", "deprecated"].includes(d.status))
       errors.push(`${d.id || "unknown"}: invalid status`);
-    for (const claim of [
-      d.id,
-      d.model,
-      ...(d.aliases || []),
-      ...(d.modelNumbers || []),
-    ]) {
+    const lookupClaims =
+      d.status === "published"
+        ? [d.id, d.model, ...(d.aliases || []), ...(d.modelNumbers || [])]
+        : [];
+    for (const claim of lookupClaims) {
       const key = normalize(claim || "");
       const owner = claims.get(key);
       if (owner && owner !== d.id)

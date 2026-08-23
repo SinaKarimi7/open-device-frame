@@ -1,0 +1,22 @@
+{
+  "id": "xiaomi-redmi-note-14-pro-plus-5g-global",
+  "brand": "Xiaomi",
+  "model": "Redmi Note 14 Pro Plus 5G (Global)",
+  "aliases": [
+    "Redmi Note 14 Pro Plus 5G (Global) (12GB+512GB)",
+    "Redmi Note 14 Pro Plus 5G (Global) (256GB)"
+  ],
+  "modelNumbers": [],
+  "images": {},
+  "status": "draft",
+  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "provenance": [
+    {
+      "source": "Kaggle: Global Smartphone Database 2025",
+      "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+      "license": "Apache-2.0",
+      "retrievedAt": "2026-08-23"
+    }
+  ],
+  "releaseYear": 2025
+}

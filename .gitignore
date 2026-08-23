@@ -4,6 +4,7 @@ out/
 .tmp/
 .generations/
 raw-assets/
+archive.zip
 *.tsbuildinfo
 .env*
 !.env.example

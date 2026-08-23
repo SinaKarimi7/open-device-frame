@@ -1,0 +1,19 @@
+{
+  "id": "samsung-galaxy-j7-prime",
+  "brand": "Samsung",
+  "model": "Galaxy J7 Prime",
+  "aliases": ["Galaxy J7 Prime (32GB)"],
+  "modelNumbers": [],
+  "images": {},
+  "status": "draft",
+  "notes": "Imported metadata only; requires maintainer review and a final approved asset before publication.",
+  "provenance": [
+    {
+      "source": "Kaggle: Global Smartphone Database 2025",
+      "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+      "license": "Apache-2.0",
+      "retrievedAt": "2026-08-23"
+    }
+  ],
+  "releaseYear": 2016
+}
