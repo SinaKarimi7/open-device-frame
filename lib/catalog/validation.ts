@@ -1,7 +1,7 @@
 import type { DeviceRecord } from "@/lib/catalog/types";
 
 const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const imagePattern = /^\/devices\/[a-z0-9-]+\/[a-z0-9-]+\.png$/;
+const imagePattern = /^\/devices\/[a-z0-9-]+\/[a-z0-9-]+\.(?:png|webp)$/;
 const statuses = new Set(["published", "draft", "deprecated"]);
 
 export function validateRecord(value: unknown): string[] {
@@ -28,7 +28,9 @@ export function validateRecord(value: unknown): string[] {
     (typeof device.images.frontOff !== "string" ||
       !imagePattern.test(device.images.frontOff))
   )
-    errors.push("images.frontOff must be a /devices/<brand>/<file>.png path");
+    errors.push(
+      "images.frontOff must be a /devices/<brand>/<file>.png or .webp path",
+    );
   if (device.status === "published" && !device.images?.frontOff)
     errors.push("published records require images.frontOff");
   if (device.status === "published" && !device.family?.trim())

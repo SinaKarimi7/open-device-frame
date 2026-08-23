@@ -3,7 +3,7 @@ const example = `const response = await fetch(
 );
 const { match } = await response.json();
 
-// A repository-relative PNG path.
+// A repository-relative PNG or WebP path.
 const imageUrl = match.images.frontOff;`;
 
 const errorExample = `{
@@ -22,7 +22,7 @@ export default function ApiDocsPage() {
       <p>
         The API serves the published catalog committed to this repository. It
         has no database or runtime upstream dependency. Every image path is a
-        repository-relative PNG URL.
+        repository-relative PNG or WebP URL.
       </p>
       <h2>Endpoints</h2>
       <ul>
@@ -61,7 +61,7 @@ export default function ApiDocsPage() {
       <h2>Image URLs</h2>
       <p>
         <code>images.frontOff</code> is a relative path such as{" "}
-        <code>/devices/apple/iphone-16-pro.png</code>. Frames are
+        <code>/devices/apple/iphone-16-pro.webp</code>. Frames are
         community-maintained black device-frame illustrations with transparent
         backgrounds and display openings—not official manufacturer photography.
       </p>

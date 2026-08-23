@@ -44,7 +44,9 @@ export function errorsFor(devices) {
       );
     if (
       d.images?.frontOff !== undefined &&
-      !/^\/devices\/[a-z0-9-]+\/[a-z0-9-]+\.png$/.test(d.images.frontOff)
+      !/^\/devices\/[a-z0-9-]+\/[a-z0-9-]+\.(?:png|webp)$/.test(
+        d.images.frontOff,
+      )
     )
       errors.push(`${d.id || "unknown"}: invalid frontOff image path`);
     if (d.status === "published" && !d.images?.frontOff)

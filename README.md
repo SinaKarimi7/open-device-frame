@@ -15,9 +15,14 @@ pnpm dev
 
 - Canonical devices: `catalog/devices/<brand>/<device>.json`
 - Generated indexes: `catalog/generated/` (never edit these by hand)
-- Assets: `public/devices/<brand>/<device>.png`
+- Assets: `public/devices/<brand>/<device>.png` or `.webp`
 
-Assets are real PNG device frames with a transparent background and transparent display opening. The physical frame is solid black, straight-on, and tightly cropped to its natural aspect ratio. Files must be under 500KB. This is deliberately an illustration contract, not manufacturer-authorized photography.
+Assets are real transparent device frames. Approved high-resolution PNG masters
+may be published as lossless WebP derivatives; both retain the transparent
+background and display opening. The physical frame is solid black, straight-on,
+and tightly cropped to its natural aspect ratio. Files must be under 500KB.
+This is deliberately an illustration contract, not manufacturer-authorized
+photography.
 
 ## API
 

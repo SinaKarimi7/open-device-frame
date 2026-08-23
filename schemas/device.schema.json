@@ -35,7 +35,7 @@
       "properties": {
         "frontOff": {
           "type": "string",
-          "pattern": "^/devices/[a-z0-9-]+/[a-z0-9-]+\\.png$"
+          "pattern": "^/devices/[a-z0-9-]+/[a-z0-9-]+\\.(?:png|webp)$"
         },
         "thumbhash": {
           "type": "string",

@@ -1,13 +1,13 @@
 # First 50 production devices
 
-This Stage 13 batch is published with 50 original PNG device frames. The source records remain the canonical metadata, and the public catalog exposes the matching `frontOff` PNG for every device listed below.
+This Stage 13 batch is published with 50 original device frames. The source records remain the canonical metadata, and the public catalog exposes the matching `frontOff` PNG or WebP for every device listed below.
 
 ## Acceptance criteria per device
 
 1. Verify brand, marketing name, and release year against a reliable reference.
-2. Use an original tightly cropped transparent PNG frame; do not extract simulator, SDK, or manufacturer assets.
+2. Use an original tightly cropped transparent PNG master or lossless WebP derivative; do not extract simulator, SDK, or manufacturer assets.
 3. Review the device silhouette, bezel, natural aspect ratio, cutout, and sensor placement.
-4. Keep `images.frontOff` on the PNG path and run `pnpm verify` after any replacement.
+4. Keep `images.frontOff` on a PNG or WebP path and run `pnpm verify` after any replacement.
 
 ## Selected records
 
