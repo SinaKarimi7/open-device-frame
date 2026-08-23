@@ -1,4 +1,30 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { readDevices, root, normalize } from "./shared.mjs";
-const devices=(await readDevices()).filter(d=>d.status==="published");const output=path.join(root,"catalog","generated");const aliases=Object.fromEntries(devices.flatMap(d=>[d.model,...d.aliases,...d.modelNumbers].map(v=>[normalize(v),d.id])));const brands=Object.fromEntries([...new Set(devices.map(d=>d.brand))].sort().map(b=>[normalize(b),devices.filter(d=>d.brand===b).map(d=>d.id)]));await mkdir(output,{recursive:true});await Promise.all([["devices.json",devices],["aliases.json",aliases],["brands.json",brands]].map(([name,data])=>writeFile(path.join(output,name),`${JSON.stringify(data,null,2)}\n`)));console.log(`Built catalog indexes for ${devices.length} devices.`);
+import { normalize, readDevices, root } from "./shared.mjs";
+
+const devices = (await readDevices()).filter((d) => d.status === "published");
+const output = path.join(root, "catalog", "generated");
+const aliases = Object.fromEntries(
+  devices.flatMap((d) =>
+    [d.model, ...d.aliases, ...d.modelNumbers].map((v) => [normalize(v), d.id]),
+  ),
+);
+const brands = Object.fromEntries(
+  [...new Set(devices.map((d) => d.brand))]
+    .sort()
+    .map((b) => [
+      normalize(b),
+      devices.filter((d) => d.brand === b).map((d) => d.id),
+    ]),
+);
+await mkdir(output, { recursive: true });
+await Promise.all(
+  [
+    ["devices.json", devices],
+    ["aliases.json", aliases],
+    ["brands.json", brands],
+  ].map(([name, data]) =>
+    writeFile(path.join(output, name), `${JSON.stringify(data, null, 2)}\n`),
+  ),
+);
+console.log(`Built catalog indexes for ${devices.length} devices.`);

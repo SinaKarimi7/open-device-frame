@@ -18,35 +18,62 @@ export async function getDevice(id: string): Promise<DeviceRecord | undefined> {
   return (await allPublishedDevices()).find((device) => device.id === id);
 }
 
-export async function resolveDevice(query: string): Promise<DeviceRecord | undefined> {
+export async function resolveDevice(
+  query: string,
+): Promise<DeviceRecord | undefined> {
   const source = await allPublishedDevices();
   const normalized = normalizeDeviceQuery(query);
-  const exact = (values: (device: DeviceRecord) => string[]) => source.find((device) => values(device).includes(query));
-  return exact((device) => [device.id])
-    ?? exact((device) => [device.model])
-    ?? source.find((device) => normalizeDeviceQuery(device.model) === normalized)
-    ?? exact((device) => device.aliases)
-    ?? source.find((device) => device.aliases.some((alias) => normalizeDeviceQuery(alias) === normalized))
-    ?? exact((device) => device.modelNumbers);
+  const exact = (values: (device: DeviceRecord) => string[]) =>
+    source.find((device) => values(device).includes(query));
+  return (
+    exact((device) => [device.id]) ??
+    exact((device) => [device.model]) ??
+    source.find(
+      (device) => normalizeDeviceQuery(device.model) === normalized,
+    ) ??
+    exact((device) => device.aliases) ??
+    source.find((device) =>
+      device.aliases.some(
+        (alias) => normalizeDeviceQuery(alias) === normalized,
+      ),
+    ) ??
+    exact((device) => device.modelNumbers)
+  );
 }
 
 export async function searchDevices(query: string): Promise<DeviceRecord[]> {
   const normalized = normalizeDeviceQuery(query);
   if (!normalized) return [];
-  return (await allPublishedDevices()).filter((device) => [device.id, device.brand, device.model, ...device.aliases, ...device.modelNumbers].some((value) => normalizeDeviceQuery(value).includes(normalized)));
+  return (await allPublishedDevices()).filter((device) =>
+    [
+      device.id,
+      device.brand,
+      device.model,
+      ...device.aliases,
+      ...device.modelNumbers,
+    ].some((value) => normalizeDeviceQuery(value).includes(normalized)),
+  );
 }
 
 export async function brands(): Promise<string[]> {
-  return [...new Set((await allPublishedDevices()).map((device) => device.brand))].sort();
+  return [
+    ...new Set((await allPublishedDevices()).map((device) => device.brand)),
+  ].sort();
 }
 
 export async function devicesByBrand(brand: string): Promise<DeviceRecord[]> {
-  return (await allPublishedDevices()).filter((device) => slugifyBrand(device.brand) === brand);
+  return (await allPublishedDevices()).filter(
+    (device) => slugifyBrand(device.brand) === brand,
+  );
 }
 
 export async function catalogVersion(): Promise<string> {
   try {
-    const packageJson = JSON.parse(await readFile(path.join(process.cwd(), "package.json"), "utf8")) as { version: string };
+    const packageJson = JSON.parse(
+      await readFile(path.join(process.cwd(), "package.json"), "utf8"),
+    ) as { version: string };
     return packageJson.version;
-  } catch { return "development"; }
+  } catch {
+    return "development";
+  }
 }

@@ -1,1 +1,44 @@
-export default function ApiDocsPage() { return <article><p className="eyebrow">API V1</p><h1>Simple, static, and predictable.</h1><p>The API is backed exclusively by catalog files in this repository. All image paths are relative URLs.</p><h2>Endpoints</h2><ul><li><code>GET /api/v1/devices/:id</code> — canonical device record</li><li><code>GET /api/v1/resolve?model=Pixel%209%20Pro</code> — exact/normalized lookup</li><li><code>GET /api/v1/search?q=pixel</code> — partial search</li><li><code>GET /api/v1/brands</code> — available brands</li><li><code>GET /api/v1/brands/google/devices</code> — devices for a brand</li><li><code>GET /api/v1/catalog</code> — catalog version and counts</li></ul><h2>JavaScript</h2><pre><code>{`const response = await fetch("/api/v1/resolve?model=Google%20Pixel%209%20Pro");\nconst { match } = await response.json();\nconst imageUrl = match.images.frontOff;`}</code></pre><h2>Errors</h2><p>Errors use <code>DEVICE_NOT_FOUND</code> or <code>INVALID_QUERY</code> in a stable JSON envelope. Images are community-maintained illustrations, not official manufacturer photography.</p></article>; }
+export default function ApiDocsPage() {
+  return (
+    <article>
+      <p className="eyebrow">API V1</p>
+      <h1>Simple, static, and predictable.</h1>
+      <p>
+        The API is backed exclusively by catalog files in this repository. All
+        image paths are relative URLs.
+      </p>
+      <h2>Endpoints</h2>
+      <ul>
+        <li>
+          <code>GET /api/v1/devices/:id</code> — canonical device record
+        </li>
+        <li>
+          <code>GET /api/v1/resolve?model=Pixel%209%20Pro</code> —
+          exact/normalized lookup
+        </li>
+        <li>
+          <code>GET /api/v1/search?q=pixel</code> — partial search
+        </li>
+        <li>
+          <code>GET /api/v1/brands</code> — available brands
+        </li>
+        <li>
+          <code>GET /api/v1/brands/google/devices</code> — devices for a brand
+        </li>
+        <li>
+          <code>GET /api/v1/catalog</code> — catalog version and counts
+        </li>
+      </ul>
+      <h2>JavaScript</h2>
+      <pre>
+        <code>{`const response = await fetch("/api/v1/resolve?model=Google%20Pixel%209%20Pro");\nconst { match } = await response.json();\nconst imageUrl = match.images.frontOff;`}</code>
+      </pre>
+      <h2>Errors</h2>
+      <p>
+        Errors use <code>DEVICE_NOT_FOUND</code> or <code>INVALID_QUERY</code>{" "}
+        in a stable JSON envelope. Images are community-maintained
+        illustrations, not official manufacturer photography.
+      </p>
+    </article>
+  );
+}
