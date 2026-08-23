@@ -1,5 +1,164 @@
 [
   {
+    "id": "apple-iphone-14",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-14.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2022
+  },
+  {
+    "id": "apple-iphone-15",
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "aliases": [
+      "iPhone 15 (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-15.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "apple-iphone-15-plus",
+    "brand": "Apple",
+    "model": "iPhone 15 Plus",
+    "aliases": [
+      "iPhone 15 Plus (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-15-plus.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "apple-iphone-15-pro",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "aliases": [
+      "iPhone 15 Pro (1TB)",
+      "iPhone 15 Pro (512GB)",
+      "iPhone 15 Pro (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-15-pro.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "apple-iphone-15-pro-max",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "aliases": [
+      "iPhone 15 Pro Max (1TB)",
+      "iPhone 15 Pro Max (512GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-15-pro-max.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "apple-iphone-16",
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "aliases": [
+      "iPhone 16 (256GB SG)",
+      "iPhone 16 (512GB USA)",
+      "iPhone 16 (256GB USA)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-16.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2024
+  },
+  {
+    "id": "apple-iphone-16-plus",
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "aliases": [
+      "iPhone 16 Plus (256GB SG)",
+      "iPhone 16 Plus (512GB USA)",
+      "iPhone 16 Plus (256GB USA)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-16-plus.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2024
+  },
+  {
     "id": "apple-iphone-16-pro",
     "brand": "Apple",
     "model": "iPhone 16 Pro",
@@ -14,9 +173,163 @@
       "A3292"
     ],
     "images": {
-      "frontOff": "/devices/apple/iphone-16-pro.svg"
+      "frontOff": "/devices/apple/iphone-16-pro.png"
     },
     "status": "published"
+  },
+  {
+    "id": "apple-iphone-16-pro-max",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "aliases": [
+      "iPhone 16 Pro Max (1TB SG)",
+      "iPhone 16 Pro Max (512GB SG)",
+      "iPhone 16 Pro Max (1TB USA)",
+      "iPhone 16 Pro Max (512GB USA)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-16-pro-max.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2024
+  },
+  {
+    "id": "apple-iphone-16e",
+    "brand": "Apple",
+    "model": "iPhone 16e",
+    "aliases": [
+      "iPhone 16e (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/apple/iphone-16e.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "google-pixel-7a",
+    "brand": "Google",
+    "model": "Pixel 7a",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/google/pixel-7a.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "google-pixel-8",
+    "brand": "Google",
+    "model": "Pixel 8",
+    "aliases": [
+      "Pixel 8 (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/google/pixel-8.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "google-pixel-8-pro",
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "aliases": [
+      "Pixel 8 Pro (512GB)",
+      "Pixel 8 Pro (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/google/pixel-8-pro.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "google-pixel-8a",
+    "brand": "Google",
+    "model": "Pixel 8a",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/google/pixel-8a.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2024
+  },
+  {
+    "id": "google-pixel-9",
+    "brand": "Google",
+    "model": "Pixel 9",
+    "aliases": [
+      "Pixel 9 (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/google/pixel-9.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2024
   },
   {
     "id": "google-pixel-9-pro",
@@ -33,28 +346,727 @@
       "GR83Y"
     ],
     "images": {
-      "frontOff": "/devices/google/pixel-9-pro.svg"
+      "frontOff": "/devices/google/pixel-9-pro.png"
     },
     "status": "published"
   },
   {
-    "id": "samsung-galaxy-s24-ultra",
-    "brand": "Samsung",
-    "model": "Galaxy S24 Ultra",
-    "family": "Galaxy S",
-    "releaseYear": 2024,
+    "id": "google-pixel-9-pro-fold",
+    "brand": "Google",
+    "model": "Pixel 9 Pro Fold",
     "aliases": [
-      "Samsung S24 Ultra",
-      "Galaxy S24U"
+      "Pixel 9 Pro Fold (512GB)"
     ],
-    "modelNumbers": [
-      "SM-S928B",
-      "SM-S928U",
-      "SM-S928U1"
-    ],
+    "modelNumbers": [],
     "images": {
-      "frontOff": "/devices/samsung/galaxy-s24-ultra.svg"
+      "frontOff": "/devices/google/pixel-9-pro-fold.png"
     },
-    "status": "published"
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2024
+  },
+  {
+    "id": "google-pixel-9-pro-xl",
+    "brand": "Google",
+    "model": "Pixel 9 Pro XL",
+    "aliases": [
+      "Pixel 9 Pro XL (512GB)",
+      "Pixel 9 Pro XL (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/google/pixel-9-pro-xl.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2024
+  },
+  {
+    "id": "google-pixel-9a",
+    "brand": "Google",
+    "model": "Pixel 9a",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/google/pixel-9a.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "google-pixel-fold",
+    "brand": "Google",
+    "model": "Pixel Fold",
+    "aliases": [
+      "Pixel Fold (12GB+512GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/google/pixel-fold.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "huawei-enjoy-70x",
+    "brand": "Huawei",
+    "model": "Enjoy 70X",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/enjoy-70x.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-enjoy-80",
+    "brand": "Huawei",
+    "model": "Enjoy 80",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/enjoy-80.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-nova-14",
+    "brand": "Huawei",
+    "model": "Nova 14",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/nova-14.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-nova-14-pro",
+    "brand": "Huawei",
+    "model": "Nova 14 Pro",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/nova-14-pro.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-nova-y63",
+    "brand": "Huawei",
+    "model": "Nova Y63",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/nova-y63.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-nova-y72s",
+    "brand": "Huawei",
+    "model": "Nova Y72S",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/nova-y72s.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-pura-80",
+    "brand": "Huawei",
+    "model": "Pura 80",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/pura-80.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-pura-80-pro",
+    "brand": "Huawei",
+    "model": "Pura 80 Pro",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/pura-80-pro.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-pura-80-pro-plus",
+    "brand": "Huawei",
+    "model": "Pura 80 Pro Plus",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/pura-80-pro-plus.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "huawei-pura-80-ultra",
+    "brand": "Huawei",
+    "model": "Pura 80 Ultra",
+    "aliases": [
+      "Pura 80 Ultra (1TB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/huawei/pura-80-ultra.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-a16",
+    "brand": "Samsung",
+    "model": "Galaxy A16",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-a16.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-a16-5g",
+    "brand": "Samsung",
+    "model": "Galaxy A16 5G",
+    "aliases": [
+      "Galaxy A16 5G (8GB+256GB)",
+      "Galaxy A16 5G (8GB RAM)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-a16-5g.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-a26",
+    "brand": "Samsung",
+    "model": "Galaxy A26",
+    "aliases": [
+      "Galaxy A26 (8GB+256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-a26.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-a36",
+    "brand": "Samsung",
+    "model": "Galaxy A36",
+    "aliases": [
+      "Galaxy A36 (12GB+256GB)",
+      "Galaxy A36 (8GB+256GB)",
+      "Galaxy A36 (8GB RAM)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-a36.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-a56",
+    "brand": "Samsung",
+    "model": "Galaxy A56",
+    "aliases": [
+      "Galaxy A56 (12GB+256GB)",
+      "Galaxy A56 (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-a56.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-f06-5g",
+    "brand": "Samsung",
+    "model": "Galaxy F06 5G",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-f06-5g.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-f16",
+    "brand": "Samsung",
+    "model": "Galaxy F16",
+    "aliases": [
+      "Galaxy F16 (8GB RAM)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-f16.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-f36",
+    "brand": "Samsung",
+    "model": "Galaxy F36",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-f36.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-f56",
+    "brand": "Samsung",
+    "model": "Galaxy F56",
+    "aliases": [
+      "Galaxy F56 (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-f56.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "samsung-galaxy-m06",
+    "brand": "Samsung",
+    "model": "Galaxy M06",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/samsung/galaxy-m06.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-15-ultra",
+    "brand": "Xiaomi",
+    "model": "15 Ultra",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/15-ultra.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-15s-pro",
+    "brand": "Xiaomi",
+    "model": "15S Pro",
+    "aliases": [
+      "15S Pro (1TB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/15s-pro.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-civi-5-pro",
+    "brand": "Xiaomi",
+    "model": "Civi 5 Pro",
+    "aliases": [
+      "Civi 5 Pro (16GB+512GB)",
+      "Civi 5 Pro (512GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/civi-5-pro.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-poco-c71",
+    "brand": "Xiaomi",
+    "model": "Poco C71",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/poco-c71.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-poco-f7",
+    "brand": "Xiaomi",
+    "model": "Poco F7",
+    "aliases": [
+      "Poco F7 (512GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/poco-f7.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-poco-f7-pro",
+    "brand": "Xiaomi",
+    "model": "Poco F7 Pro",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/poco-f7-pro.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-poco-f7-ultra",
+    "brand": "Xiaomi",
+    "model": "Poco F7 Ultra",
+    "aliases": [],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/poco-f7-ultra.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-poco-m7",
+    "brand": "Xiaomi",
+    "model": "Poco M7",
+    "aliases": [
+      "Poco M7 (8GB RAM)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/poco-m7.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-poco-x7",
+    "brand": "Xiaomi",
+    "model": "Poco X7",
+    "aliases": [
+      "Poco X7 (256GB)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/poco-x7.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "xiaomi-poco-x7-pro",
+    "brand": "Xiaomi",
+    "model": "Poco X7 Pro",
+    "aliases": [
+      "Poco X7 Pro (12GB+512GB)",
+      "Poco X7 Pro (12GB RAM)"
+    ],
+    "modelNumbers": [],
+    "images": {
+      "frontOff": "/devices/xiaomi/poco-x7-pro.png"
+    },
+    "status": "published",
+    "provenance": [
+      {
+        "source": "Kaggle: Global Smartphone Database 2025",
+        "url": "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+        "license": "Apache-2.0",
+        "retrievedAt": "2026-08-23"
+      }
+    ],
+    "releaseYear": 2025
   }
 ]
