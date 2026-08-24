@@ -38,8 +38,31 @@ header a {
 }
 nav {
   display: flex;
+  align-items: center;
   gap: 20px;
   font-size: 0.92rem;
+}
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink);
+  transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+.github-link:hover,
+.github-link:focus-visible {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+.github-link svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
 }
 main {
   min-height: calc(100vh - 135px);
