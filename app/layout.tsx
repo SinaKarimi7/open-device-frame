@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import "./globals.css";
 import { siteDescription, siteName, siteUrl } from "@/lib/site";
@@ -57,6 +58,7 @@ export default function RootLayout({
           </nav>
         </header>
         <main>{children}</main>
+        <Analytics />
         <footer>Open device-frame illustrations. Coverage is growing.</footer>
       </body>
     </html>
