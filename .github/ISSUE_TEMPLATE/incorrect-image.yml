@@ -5,6 +5,18 @@ body:
   - type: input
     attributes: { label: Device ID }
     validations: { required: true }
+  - type: dropdown
+    attributes:
+      label: Problem category
+      options:
+        - Wrong phone model
+        - Incorrect camera/sensor placement
+        - Incorrect proportions
+        - Incorrect image quality
+        - Other
+    validations: { required: true }
+  - type: input
+    attributes: { label: Reference URL, description: Link to an image or specification showing the correct appearance. }
   - type: textarea
     attributes: { label: What is wrong? }
     validations: { required: true }

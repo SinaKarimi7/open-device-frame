@@ -1,3 +1,4 @@
+import { buildIssueBody } from "@/lib/api/issue-content";
 import {
   isHttpUrl,
   issueTitleExists,
@@ -30,6 +31,7 @@ export async function POST(request: Request) {
   const type = value(body.type, 40);
   const details = value(body.details, 2000);
   const referenceUrl = value(body.referenceUrl, 500);
+  const imageUrl = value(body.imageUrl, 500);
   if (!validTypes.has(type) || !details)
     return apiError(
       "INVALID_REQUEST",
@@ -42,8 +44,16 @@ export async function POST(request: Request) {
       "Reference URL must use HTTP or HTTPS.",
       400,
     );
+  if (imageUrl && !isHttpUrl(imageUrl))
+    return apiError(
+      "INVALID_REQUEST",
+      "Image URL must use HTTP or HTTPS.",
+      400,
+    );
   const brand = value(body.brand, 80);
   const model = value(body.model, 120);
+  const modelNumber = value(body.modelNumber, 80);
+  const category = value(body.category, 120);
   const deviceId = value(body.deviceId, 120);
   if (type === "device-request" && (!brand || !model))
     return apiError("INVALID_REQUEST", "Brand and model are required.", 400);
@@ -94,17 +104,20 @@ export async function POST(request: Request) {
         409,
       );
   }
-  const issueBody = [
-    `## ${type}`,
-    `Device ID: ${device?.id ?? "N/A"}`,
-    `Brand: ${brand || device?.brand || "N/A"}`,
-    `Model: ${model || device?.model || "N/A"}`,
-    `Image: ${device?.images.frontOff ?? "N/A"}`,
-    `Reference: ${referenceUrl || "N/A"}`,
-    "",
-    "### Details",
+  const issueBody = buildIssueBody({
+    type: type as "device-request" | "incorrect-image" | "incorrect-metadata",
     details,
-  ].join("\n");
+    brand,
+    model,
+    modelNumber,
+    imageUrl,
+    referenceUrl,
+    category,
+    deviceId: device?.id,
+    deviceBrand: device?.brand,
+    deviceModel: device?.model,
+    currentImage: device?.images.frontOff,
+  });
   const response = await fetch(
     `https://api.github.com/repos/${repository}/issues`,
     {

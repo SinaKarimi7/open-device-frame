@@ -121,6 +121,10 @@ h2 {
   font-weight: bold;
   cursor: pointer;
 }
+.button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
 .secondary {
   background: white;
   color: var(--ink);
@@ -219,6 +223,32 @@ pre {
 }
 .form textarea {
   min-height: 130px;
+}
+.field-help {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+.submission-success {
+  padding: 18px;
+  border: 1px solid #aed7bc;
+  border-radius: 10px;
+  background: #f0faf3;
+}
+.submission-success strong {
+  font-size: 1.05rem;
+}
+.submission-success p {
+  margin: 4px 0 14px;
+  color: var(--muted);
+}
+.submission-error {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid #e4b7b3;
+  border-radius: 7px;
+  background: #fff4f2;
+  color: #8b2119;
 }
 @media (max-width: 650px) {
   header {

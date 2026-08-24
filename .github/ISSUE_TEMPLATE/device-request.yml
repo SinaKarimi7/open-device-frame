@@ -9,6 +9,11 @@ body:
     attributes: { label: Model }
     validations: { required: true }
   - type: input
-    attributes: { label: Known model number }
+    attributes: { label: Known model number, description: Optional hardware model identifier. }
+  - type: input
+    attributes: { label: Suggested device image URL, description: Link to a clear front-facing image that can guide the frame illustration. }
+  - type: input
+    attributes: { label: Reference URL, description: Official specifications or another reliable device reference. }
   - type: textarea
-    attributes: { label: References and notes }
+    attributes: { label: Details, description: Add any other information that will help us identify and illustrate this device. }
+    validations: { required: true }

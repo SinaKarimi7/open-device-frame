@@ -5,6 +5,17 @@ body:
   - type: input
     attributes: { label: Device ID }
     validations: { required: true }
+  - type: dropdown
+    attributes:
+      label: Problem category
+      options:
+        - Wrong alias
+        - Wrong model number
+        - Wrong brand or model name
+        - Other
+    validations: { required: true }
+  - type: input
+    attributes: { label: Reference URL, description: Link to a reliable source for the correct metadata. }
   - type: textarea
     attributes: { label: What needs correction? }
     validations: { required: true }

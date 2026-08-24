@@ -27,7 +27,7 @@
     "lint": "biome check .",
     "format": "biome format --write .",
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/**/*.test.mjs",
+    "test": "node --experimental-strip-types --test tests/**/*.test.mjs",
     "catalog:build": "node scripts/catalog/build.mjs",
     "catalog:import": "node scripts/catalog/import-kaggle.mjs",
     "catalog:validate": "node scripts/catalog/validate.mjs",
