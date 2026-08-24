@@ -51,7 +51,10 @@ nav {
   border: 1px solid var(--line);
   border-radius: 50%;
   color: var(--ink);
-  transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+  transition:
+    background 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease;
 }
 .github-link:hover,
 .github-link:focus-visible {
